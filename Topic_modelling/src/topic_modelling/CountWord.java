@@ -21,6 +21,8 @@ import java.util.Scanner;
 public class CountWord {
     private HashMap<String, Object> mapAll = new HashMap<String, Object>();
     private HashMap<String, Integer> map = new HashMap<String, Integer>();
+    private HashMap<String, Double> mapTFIDF = new HashMap<String, Double>();
+    private HashMap<String, Object> mapAllTFIDF = new HashMap<String, Object>();
     private static final char DEFAULT_SEPARATOR = ',';
     
     public void calcWordCount() throws FileNotFoundException{
@@ -75,13 +77,26 @@ public class CountWord {
                     first = (int) m.getValue();
                 }                            
             }
-            normalizeMap(first);
+            //normalizeMap(first);
             System.out.println(map);
             System.out.println("\n\n");
             mapAll.put(b,map.clone());
             map.replaceAll((k,v) -> 0);
         }
-        System.out.println(mapAll);
+       
+        for(Map.Entry m:mapAll.entrySet()){  
+            map.putAll((HashMap)m.getValue());
+            for(Map.Entry m2:map.entrySet()){  
+                if((int)m2.getValue() == 0){
+                    mapTFIDF.put(m2.getKey().toString(), 0.0);
+                }
+                else
+                    mapTFIDF.put(m2.getKey().toString(), calcTFIDF(m2.getKey().toString()));                
+            }
+            mapAllTFIDF.put(m.getKey().toString(),mapTFIDF.clone());
+            mapTFIDF.clear();
+           
+        }
         writeCSV();
     }
     
@@ -94,13 +109,14 @@ public class CountWord {
         }
         sb.append("\n");
 
-        for(int i = 1; i <= mapAll.size(); i++){
+        for(int i = 1; i <= mapAllTFIDF.size(); i++){
             String b = "doc"+i;
             writeLine(sb,b);
-            map.putAll((HashMap)mapAll.get(b));
-            for(Map.Entry m:map.entrySet()){          
+            mapTFIDF.putAll((HashMap)mapAllTFIDF.get(b));
+            for(Map.Entry m:mapTFIDF.entrySet()){          
                 writeLine(sb,m.getValue().toString());           
             }
+            mapTFIDF.clear();
             sb.append("\n");
         }
         pw.write(sb.toString());
@@ -122,6 +138,36 @@ public class CountWord {
              map.put(key, calculation);
              
          }
-         
+    }
+    
+    public double calcIDF(String term){
+        int n =0;
+        HashMap<String, Integer> hash = new HashMap<String, Integer>();
+        for(Map.Entry m:mapAll.entrySet()){               
+            String key = (String)m.getKey();
+            hash.putAll((HashMap)mapAll.get(key));
+            if(hash.get(term)>0){
+                n++;
+            }
+            hash.clear();
+        }
+        return Math.log(mapAll.size()/n);
+    }
+    
+    public double calcTF(String term){
+        int termFreq = map.get(term);
+        int totalTerm = 0;
+
+        for(Map.Entry m:map.entrySet()){            
+            totalTerm = totalTerm + (int)m.getValue();       
+     
+        }
+        return termFreq/totalTerm;
+    }
+    
+    public double calcTFIDF(String term){
+        
+        return calcTF(term)*calcIDF(term);
+        
     }
 }
