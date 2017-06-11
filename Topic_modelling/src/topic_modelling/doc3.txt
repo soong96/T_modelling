@@ -1,1 +1,1 @@
-In one embodiment, a method includes accessing a social graph that includes a plurality of nodes and edges, identifying a nodes corresponding to a page currently accessed by a first user, generating one or more structured queries, where each structured query comprises a reference to the identified node and one or more edges that are connected to the identified node, and transmitting one or more of the structured queries to the first user for display on the page.
+sl sl sl

@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -20,26 +21,10 @@ public class week8 {
     public static void main(String[] args) throws FileNotFoundException, IOException {
         // TODO code application logic here
         Scanner sc2 = null;
-        HashMap<String, Object> a = new HashMap<String, Object>();
+        HashMap<String, Object> mapAll = new HashMap<String, Object>();
         HashMap<String, Integer> map = new HashMap<String, Integer>();
-        for(int y = 1; y < 11; y++){
-            String b = "doc"+y;
-            try {                
-                sc2 = new Scanner(new File("src\\topic_modelling\\" + b + ".txt"));
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();  
-            }
-            while (sc2.hasNextLine()) {
-                    Scanner s2 = new Scanner(sc2.nextLine());
-                while (s2.hasNext()) {
-                    String s = s2.next();
-                    String[] words = s.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s");
-                    if(!map.containsKey(words[0])){
-                        map.put(words[0],0);
-                    }
-                }
-            }
-        }
+        LinkedList list = new LinkedList();
+
         for(int y = 1; y < 11; y++){     
             
             String b = "doc"+y;
@@ -60,7 +45,11 @@ public class week8 {
                     }
                     else{
                         map.put(words[0],1);
-                    }                   
+                    }           
+                    
+                    if(!list.contains(words[0])){
+                        list.add(words[0]);
+                    }
 
 
                 }
@@ -81,9 +70,10 @@ public class week8 {
             System.out.println("Second Highest :" + second +" = " + secondString);
             System.out.println(map);
             System.out.println("\n\n");
-            a.put(b,map.clone());
-            map.replaceAll((k,v) -> 0);
+            mapAll.put(b,map.clone());
+            map.clear();
         }
-        System.out.println(a);
+        System.out.println(mapAll);
+        System.out.println(list);
     }
 }
