@@ -123,7 +123,40 @@ public class CountWord {
             }
         }
         writeCSVTFIDF();
-        writeCSVSimilarMatrix();
+        writeCSVSimilarMatrix("Euclidean");
+        similarityMatrix.clear();
+        for(int j = 1; j < 21; j++){
+            String doc1 = "doc" + j;
+            for(int i = 1; i < 21; i++){
+                
+                String doc2 = "doc" + i;
+                String compare = doc1 +" : " + doc2;
+                if(!doc1.equals(doc2)){
+                    double result = cosineSimilarity((HashMap)mapAllTFIDF.get(doc1),(HashMap)mapAllTFIDF.get(doc2));
+                    similarityMatrix.put(compare, result);
+                }
+                else
+                    similarityMatrix.put(compare, 0.0);                    
+            }
+        }        
+        writeCSVSimilarMatrix("Cosine");
+        similarityMatrix.clear();
+        for(int j = 1; j < 21; j++){
+            String doc1 = "doc" + j;
+            for(int i = 1; i < 21; i++){
+                
+                String doc2 = "doc" + i;
+                String compare = doc1 +" : " + doc2;
+                if(!doc1.equals(doc2)){
+                    double result = manhanttanDistance((HashMap)mapAllTFIDF.get(doc1),(HashMap)mapAllTFIDF.get(doc2));
+                    similarityMatrix.put(compare, result);
+                }
+                else
+                    similarityMatrix.put(compare, 0.0);
+                
+            }
+        }
+        writeCSVSimilarMatrix("Manhanttan");
     }
     
     public void writeCSVTFIDF() throws FileNotFoundException{
@@ -142,7 +175,6 @@ public class CountWord {
             for(Map.Entry m:mapTFIDF.entrySet()){          
                 writeLine(sb,m.getValue().toString());           
             }
-            mapTFIDF.clear();
             sb.append("\n");
         }
         /*for(int i = 1; i <= 20 ; i++){
@@ -159,17 +191,22 @@ public class CountWord {
         
     }
             
-    public void writeCSVSimilarMatrix() throws FileNotFoundException{
-        PrintWriter pw = new PrintWriter(new File("matrix1.csv"));
+    public void writeCSVSimilarMatrix(String matrix) throws FileNotFoundException{
+        PrintWriter pw = new PrintWriter(new File("matrix" + matrix + ".csv"));
         StringBuilder sb = new StringBuilder();
+        sb.append(" "+DEFAULT_SEPARATOR);
         for(int i = 1; i <= 20 ; i++){
+            String b = "doc"+i;
+            writeLine(sb,b);
+        }
+        sb.append("\n");
+        for(int i = 1; i <= 20 ; i++){
+            writeLine(sb,"doc"+i);
             for(int j = 1; j <= 20; j++){
                 String b = "doc" + i + " : " + "doc" +j;
-                writeLine(sb,b);
-                sb.append(similarityMatrix.get(b));
-                sb.append("\n");
-                
+                writeLine(sb,similarityMatrix.get(b).toString());                
             }
+            sb.append("\n");
         } 
         pw.write(sb.toString());
         pw.close();  
@@ -258,5 +295,38 @@ public class CountWord {
         return finalResult;
     }     
     
+    public double cosineSimilarity(HashMap doc1, HashMap doc2){
+        HashMap<String, Double> hash1 = new HashMap<String,Double>();
+        HashMap<String, Double> hash2 = new HashMap<String,Double>();
+        hash1.putAll(doc1);
+        hash2.putAll(doc2);
+        double dotProduct = 0.0;
+        double normX = 0.0;
+        double normY = 0.0;
+        for(Map.Entry m:mapTFIDF.entrySet()){               
+            String key = (String)m.getKey();
+            dotProduct = dotProduct + hash1.get(key) * hash2.get(key);
+            normX = normX + Math.pow(hash1.get(key), 2);
+            normY = normY + Math.pow(hash2.get(key), 2);           
+        }
+        double finalResult = dotProduct/ (Math.sqrt(normX)* Math.sqrt(normY));
+        return 1 - finalResult;
+    }
+    
+    public double manhanttanDistance(HashMap doc1, HashMap doc2){
+        HashMap<String, Double> hash1 = new HashMap<String,Double>();
+        HashMap<String, Double> hash2 = new HashMap<String,Double>();
+        hash1.putAll(doc1);
+        hash2.putAll(doc2);
+        double distance = 0.0;
+        // the sum of the absolute values of the horizontal and the vertical distance
+        for(Map.Entry m:mapTFIDF.entrySet()){               
+            String key = (String)m.getKey();
+            double A = hash1.get(key);
+            double B = hash2.get(key);
+            distance = distance + Math.abs(A - B);
+        }
+        return distance;
+    }
     
 }
