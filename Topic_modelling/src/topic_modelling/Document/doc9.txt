@@ -1,4 +1,4 @@
-Description
+ÔªøDescription
 CROSS-REFERENCE TO RELATED APPLICATIONS
 [0001]
 This application claims the benefit of Korean Patent Application No. 10-2009-0125032, filed on Dec. 15, 2009, in the Korean Intellectual Property Office, the disclosure of which is incorporated herein in its entirety by reference.
@@ -49,7 +49,7 @@ DETAILED DESCRIPTION
 [0022]
 The present embodiments will now be described more fully with reference to the accompanying drawings, in which exemplary embodiments are shown. The present embodiments may, however, be embodied in many different forms and should not be construed as being limited to the embodiments set forth herein; rather, these embodiments are provided so that this disclosure will be thorough and complete, and will fully convey the concept of the present embodiments to those skilled in the art.
 [0023]
-The term ìHfInZnO-based oxide semiconductorî used herein refers to an oxide semiconductor including hafnium (Hf), indium (In), zinc (Zn), and oxygen (O), wherein the composition ratio of Hf, In, Zn, and O may vary. In this specification, the concentration of Hf and Zn is represented by an atomic percentage (at %), and the total atomic percentage (at %) of Hf, In, and Zn is 100.
+The term ‚ÄúHfInZnO-based oxide semiconductor‚Äù used herein refers to an oxide semiconductor including hafnium (Hf), indium (In), zinc (Zn), and oxygen (O), wherein the composition ratio of Hf, In, Zn, and O may vary. In this specification, the concentration of Hf and Zn is represented by an atomic percentage (at %), and the total atomic percentage (at %) of Hf, In, and Zn is 100.
 [0024]
 FIG. 1 is a cross-sectional view illustrating a structure of an oxide semiconductor thin film transistor 10 including an oxide semiconductor layer, according to an embodiment.
 [0025]
@@ -134,21 +134,21 @@ Example 1
 [0064]
 Measurement of Characteristics and Stability of HfInZnO-Based Oxide Semiconductor Thin Film Transistor (TFT)
 [0065]
-A gate electrode comprising Mo was formed on a glass substrate to have a thickness of 1000 ≈, a width of 150 nm, and a length of 1000 nm, and a gate insulating layer comprising SiNx and SiOx was formed on the glass substrate and the gate electrode to have thicknesses of 400 ≈ and 800 ≈, respectively. An HfInZnO-based oxide semiconductor layer was formed on the gate insulating layer to have a thickness of 300 to 500 ≈.
+A gate electrode comprising Mo was formed on a glass substrate to have a thickness of 1000 √Ö, a width of 150 nm, and a length of 1000 nm, and a gate insulating layer comprising SiNx and SiOx was formed on the glass substrate and the gate electrode to have thicknesses of 400 √Ö and 800 √Ö, respectively. An HfInZnO-based oxide semiconductor layer was formed on the gate insulating layer to have a thickness of 300 to 500 √Ö.
 [0066]
 The HfInZnO-based oxide semiconductor layer was formed by co-sputtering by respectively applying powers to three targets of HfO2, In2O3, and ZnO in a sputter chamber and then patterned.
 [0067]
-Subsequently, In2O3 was formed on the HfInZnO-based oxide semiconductor layer to have a thickness of 1000 ≈ and patterned to form source/drain extending on both sides of the HfInZnO-based oxide semiconductor layer and the substrate.
+Subsequently, In2O3 was formed on the HfInZnO-based oxide semiconductor layer to have a thickness of 1000 √Ö and patterned to form source/drain extending on both sides of the HfInZnO-based oxide semiconductor layer and the substrate.
 [0068]
 During the formation of the HfInZnO-based oxide semiconductor layer, the concentration (at %) of Zn in the HfInZnO-based oxide semiconductor layer was varied by adjusting the voltages respectively applied to the targets. The electrical characteristics of a thin film transistor including an oxide semiconductor layer having different Zn concentration compositions were measured.
 [0069]
 Table 1 below shows measurement results of the characteristics and stability of the HfInZnO-based oxide semiconductor TFT according to the concentration of Zn when the concentration of Hf is 5 at %, and the measurement results of the characteristics and stability of the HfInZnO-based oxide semiconductor TFT of Table 1 are illustrated in a graph in FIG. 5.
 [0070]
-In Table 1 and FIG. 5, Zn:In denotes an atomic ratio of Zn to In in the HfInZnO-based oxide semiconductor, Hf (at %) denotes the concentration (atomic percentage) of Hf in the HfInZnO-based oxide semiconductor, VTH (threshold voltage) denotes a minimum voltage for forming a channel in a transistor so as to allow current flow, and mobility denotes an average velocity of a carrier (electron) in the HfInZnO-based oxide semiconductor. ?V denotes a change of threshold voltage VTH before and after the HfInZnO-based oxide semiconductor is under DC stress, and the DC stress denotes a change of VTH (?VTH) when a gate bias of ±5 V is applied to the HfInZnO-based oxide semiconductor for 1 hour.
+In Table 1 and FIG. 5, Zn:In denotes an atomic ratio of Zn to In in the HfInZnO-based oxide semiconductor, Hf (at %) denotes the concentration (atomic percentage) of Hf in the HfInZnO-based oxide semiconductor, VTH (threshold voltage) denotes a minimum voltage for forming a channel in a transistor so as to allow current flow, and mobility denotes an average velocity of a carrier (electron) in the HfInZnO-based oxide semiconductor. ?V denotes a change of threshold voltage VTH before and after the HfInZnO-based oxide semiconductor is under DC stress, and the DC stress denotes a change of VTH (?VTH) when a gate bias of ¬±5 V is applied to the HfInZnO-based oxide semiconductor for 1 hour.
 [0000]
 TABLE 1
 Mobility	
-Zn:In	Hf (at %)	VTH (V)	(cm2/V ∑ s)	?V (V)
+Zn:In	Hf (at %)	VTH (V)	(cm2/V ¬∑ s)	?V (V)
 38:55 (0.69)	5.0	0.08	16.96	10.1
 46:43 (1.06)	5.0	0.86	12.81	9.4
 59:36 (1.69)	4.6	0.94	14.69	8.1
@@ -162,19 +162,19 @@ Table 2 below shows measurement results of the characteristics and stability of 
 [0000]
 TABLE 2
 Mobility	
-Zn:In	Hf (at %)	VTH (V)	(cm2/V ∑ s)	?V (V)
+Zn:In	Hf (at %)	VTH (V)	(cm2/V ¬∑ s)	?V (V)
 48:45 (1.07)	6.8	2.43	10.78	6.2
 54:39 (1.38)	6.7	2.45	8.11	3.8
 [0000]
 TABLE 3
 Mobility	
-Zn:In	Hf (at %)	VTH (V)	(cm2/V ∑ s)	?V (V)
+Zn:In	Hf (at %)	VTH (V)	(cm2/V ¬∑ s)	?V (V)
 38:55 (0.69)	7.8	1.91	11.94	9.4
 62:30 (2.07)	7.8	4.59	5.95	4.1
 [0000]
 TABLE 4
 Mobility	
-Zn:In	Hf (at %)	VTH (V)	(cm2/V ∑ s)	?V (V)
+Zn:In	Hf (at %)	VTH (V)	(cm2/V ¬∑ s)	?V (V)
 35:54 (0.65)	11.0	1.95	6.70	5.1
 46:43 (1.07)	10.0	5.81	2.13	4.2
 [0074]

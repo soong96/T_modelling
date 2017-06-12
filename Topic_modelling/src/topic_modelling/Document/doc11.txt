@@ -1,4 +1,4 @@
-Description
+ï»¿Description
 translated from Chinese
 [0090] ??????????????????????????,??????????????,????????????????????????????,???????????????????
 Double gate thin film transistor and dual-gate thin film transistor including an OLED display device
@@ -159,7 +159,7 @@ The case of [0066] the use of a high molecular organic material in the intermedi
 
 [0073] For example, when applying -3V or -6V to top gate electrode, Vg are about 6V and 12V.
 
-[0074] FIG. 9 shows Vth change for a bias voltage to the top gate electrode according to an embodiment of the present invention is applied to a double gate TFT's. Figure 9 corresponds to the left in the active layer has a length of 36 µ m in the case, and in FIG. 9 corresponds to the right length for the case of an active layer of 18 µ m.
+[0074] FIG. 9 shows Vth change for a bias voltage to the top gate electrode according to an embodiment of the present invention is applied to a double gate TFT's. Figure 9 corresponds to the left in the active layer has a length of 36 Âµ m in the case, and in FIG. 9 corresponds to the right length for the case of an active layer of 18 Âµ m.
 
 [0075] Referring to FIG. 9, when a bias voltage is applied respectively 0V, -3V and -6V to the top gate electrode, Vth is a positive offset voltage. Here, Vth is shorter as the length of the active layer is further increased.
 

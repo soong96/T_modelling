@@ -22,6 +22,7 @@ public class CountWord {
     private HashMap<String, Double> map = new HashMap<String, Double>();
     private HashMap<String, Double> mapTFIDF = new HashMap<String, Double>();
     private HashMap<String, Object> mapAllTFIDF = new HashMap<String, Object>();
+    private HashMap<String, Double> similarityMatrix = new HashMap<String, Double>();
     private LinkedList<String> stopwords = new LinkedList<String>();
     private static final char DEFAULT_SEPARATOR = ',';
     
@@ -111,10 +112,21 @@ public class CountWord {
             mapTFIDF.replaceAll((k,v) -> 0.0);
            
         }
-        writeCSV();
+        for(int j = 1; j < 21; j++){
+            String doc1 = "doc" + j;
+            for(int i = 1; i < 21; i++){
+                
+                String doc2 = "doc" + i;
+                String compare = doc1 +" : " + doc2;
+                double result = EuclideanDistance((HashMap)mapAllTFIDF.get(doc1),(HashMap)mapAllTFIDF.get(doc2));
+                similarityMatrix.put(compare, result);
+            }
+        }
+        writeCSVTFIDF();
+        writeCSVSimilarMatrix();
     }
     
-    public void writeCSV() throws FileNotFoundException{
+    public void writeCSVTFIDF() throws FileNotFoundException{
         PrintWriter pw = new PrintWriter(new File("matrix.csv"));
         StringBuilder sb = new StringBuilder();
         sb.append(" "+DEFAULT_SEPARATOR);
@@ -133,12 +145,35 @@ public class CountWord {
             mapTFIDF.clear();
             sb.append("\n");
         }
+        /*for(int i = 1; i <= 20 ; i++){
+            for(int j = 1; j <= 20; j++){
+                String b = "doc" + i + " : " + "doc" +j;
+                writeLine(sb,b);
+                sb.append(similarityMatrix.get(b));
+                sb.append("\n");
+                
+            }
+        } */
         pw.write(sb.toString());
         pw.close();        
         
     }
             
-        
+    public void writeCSVSimilarMatrix() throws FileNotFoundException{
+        PrintWriter pw = new PrintWriter(new File("matrix1.csv"));
+        StringBuilder sb = new StringBuilder();
+        for(int i = 1; i <= 20 ; i++){
+            for(int j = 1; j <= 20; j++){
+                String b = "doc" + i + " : " + "doc" +j;
+                writeLine(sb,b);
+                sb.append(similarityMatrix.get(b));
+                sb.append("\n");
+                
+            }
+        } 
+        pw.write(sb.toString());
+        pw.close();  
+    }   
     
     
     public void writeLine(StringBuilder sb, String word) throws FileNotFoundException{
@@ -205,4 +240,23 @@ public class CountWord {
             }
         }
     }
+    
+    public double EuclideanDistance(HashMap doc1, HashMap doc2){
+        HashMap<String, Double> hash1 = new HashMap<String,Double>();
+        HashMap<String, Double> hash2 = new HashMap<String,Double>();
+        hash1.putAll(doc1);
+        hash2.putAll(doc2);
+        Double finalResult = 0.0;
+        for(Map.Entry m:mapTFIDF.entrySet()){               
+            String key = (String)m.getKey();
+            Double x1 = hash1.get(key);
+            Double x2 = hash2.get(key);
+            Double diff = x1-x2;
+            Double result = Math.pow(diff, 2);  
+            finalResult = finalResult + result;
+        }
+        return finalResult;
+    }     
+    
+    
 }

@@ -1,7 +1,7 @@
-Description
+ÔªøDescription
 CLAIM OF PRIORITY
 [0001]
-This application makes reference to, incorporates the same herein, and claims all benefits accruing under 35 U.S.C. ß119 from an application earlier filed in the Korean Intellectual Property Office on the 20th of January 2009 and there duly assigned Serial No. 10-2009-0004549.
+This application makes reference to, incorporates the same herein, and claims all benefits accruing under 35 U.S.C. ¬ß119 from an application earlier filed in the Korean Intellectual Property Office on the 20th of January 2009 and there duly assigned Serial No. 10-2009-0004549.
 BACKGROUND OF THE INVENTION
 [0002]
 1. Field of the Invention
@@ -59,13 +59,13 @@ FIGS. 4A and 4B are a plan view and a cross-sectional view illustrating another 
 FIG. 5 is a cross-sectional view illustrating an organic light emitting diode of FIG. 4A.
 DETAILED DESCRIPTION OF THE INVENTION
 [0028]
-In the following detailed description, only certain exemplary embodiments of the present invention have been shown and described, simply by way of illustration. As those skilled in the art would realize, the described embodiments may be modified in various different ways, all without departing from the spirit or scope of the present invention. Accordingly, the drawings and description are to be regarded as illustrative in nature and not restrictive. In addition, when an element is referred to as being ìonî another element, it can be directly on the another element or be indirectly on the another element with one or more intervening elements interposed therebetween. Also, when an element is referred to as being ìconnected toî another element, it can be directly connected to the another element or be indirectly connected to the another element with one or more intervening elements interposed therebetween. Hereinafter, like reference numerals refer to like elements.
+In the following detailed description, only certain exemplary embodiments of the present invention have been shown and described, simply by way of illustration. As those skilled in the art would realize, the described embodiments may be modified in various different ways, all without departing from the spirit or scope of the present invention. Accordingly, the drawings and description are to be regarded as illustrative in nature and not restrictive. In addition, when an element is referred to as being ‚Äúon‚Äù another element, it can be directly on the another element or be indirectly on the another element with one or more intervening elements interposed therebetween. Also, when an element is referred to as being ‚Äúconnected to‚Äù another element, it can be directly connected to the another element or be indirectly connected to the another element with one or more intervening elements interposed therebetween. Hereinafter, like reference numerals refer to like elements.
 [0029]
 The present invention will be described more fully hereinafter with reference to the accompanying drawings, in which exemplary embodiments of the invention are shown. As those skilled in the art would realize, the described embodiments may be modified in various different ways, all without departing from the spirit or scope of the principles for the present invention.
 [0030]
 Recognizing that sizes and thicknesses of constituent members shown in the accompanying drawings are arbitrarily given for better understanding and ease of description, the present invention is not limited to the illustrated sizes and thicknesses.
 [0031]
-In the drawings, the thickness of layers, films, panels, regions, etc., are exaggerated for clarity. Like reference numerals designate like elements throughout the specification. It will be understood that when an element such as a layer, film, region, or substrate is referred to as being ìonî another element, it can be directly on the other element or intervening elements may also be present. Alternatively, when an element is referred to as being ìdirectly onî another element, there are no intervening elements present.
+In the drawings, the thickness of layers, films, panels, regions, etc., are exaggerated for clarity. Like reference numerals designate like elements throughout the specification. It will be understood that when an element such as a layer, film, region, or substrate is referred to as being ‚Äúon‚Äù another element, it can be directly on the other element or intervening elements may also be present. Alternatively, when an element is referred to as being ‚Äúdirectly on‚Äù another element, there are no intervening elements present.
 [0032]
 In order to clarify the present invention, elements extrinsic to the description are omitted from the details of this description, and like reference numerals refer to like elements throughout the specification.
 [0033]
@@ -127,7 +127,7 @@ Insulating layer 15 is formed on the substrate including gate electrode 14, and 
 [0061]
 Planarizing layer 17 is formed on the substrate including the source and drain electrodes 16, and via-holes are formed in planarizing layer 17 to expose source and drain electrode 16. Anode electrode 317 connected to source and drain electrode 16 through the via-holes is formed.
 [0062]
-Pixel defining layer 318 is formed on planarizing layer 17 to expose a partial region (emission region) of anode electrode 317, organic thin film 319 is formed on exposed anode electrode 317, and cathode electrode 320 is formed on pixel defining layer 318 including organic thin film 319.í
+Pixel defining layer 318 is formed on planarizing layer 17 to expose a partial region (emission region) of anode electrode 317, organic thin film 319 is formed on exposed anode electrode 317, and cathode electrode 320 is formed on pixel defining layer 318 including organic thin film 319.‚Äô
 [0063]
 Referring to FIG. 4B, as described above, encapsulating substrate 400 sealing pixel region 220 is disposed above substrate 210 in which organic light emitting display device 300 is formed, and encapsulating substrate 400 is bonded to substrate 210 by sealing member 410, thereby completing display panel 200.
 [0064]

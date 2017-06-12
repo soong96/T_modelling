@@ -1,9 +1,9 @@
-Description
+ÔªøDescription
 CROSS-REFERENCE TO RELATED APPLICATIONS
 [0001]
 This application claims priority to and the benefit of Korean Patent Application No. 10-2009-0096759, filed on Oct. 12, 2009, in the Korean Intellectual Property Office, the entire content of which is incorporated herein by reference.
 [0002]
-This application relates to U.S. patent application entitled ìThin film transistor, method of manufacturing the thin film transistor and organic light emitting display device having thin film transistorî (Attorney dodcket: SMDSHN.153AUS), which is concurrently filed as this application and incorporated herein by reference in its entirety.
+This application relates to U.S. patent application entitled ‚ÄúThin film transistor, method of manufacturing the thin film transistor and organic light emitting display device having thin film transistor‚Äù (Attorney dodcket: SMDSHN.153AUS), which is concurrently filed as this application and incorporated herein by reference in its entirety.
 BACKGROUND
 [0003]
 1. Field of the Invention
@@ -67,7 +67,7 @@ The oxide semiconductor containing zinc oxide (ZnO) as the principle ingredient 
 [0031]
 However, since the thin film transistor using the oxide semiconductor as the active layer is easily changed in electrical characteristics in accordance with a structure and a process condition, the thin film transistor has low reliability. In particular, current characteristics are deteriorated while static-voltage or static-current driving to vary the threshold voltage, thereby deteriorating the electrical characteristics.
 [0032]
-In the following detailed description, only certain exemplary embodiments of the present invention have been shown and described, simply by way of illustration. As those skilled in the art would realize, the described embodiments may be modified in various different ways, all without departing from the spirit or scope of the present invention. Accordingly, the drawings and description are to be regarded as illustrative in nature and not restrictive. In addition, when an element is referred to as being ìonî another element, it can be directly on the another element or be indirectly on the another element with one or more intervening elements interposed therebetween. Also, when an element is referred to as being ìconnected toî another element, it can be directly connected to the another element or be indirectly connected to the another element with one or more intervening elements interposed therebetween. Hereinafter, like reference numerals refer to like elements.
+In the following detailed description, only certain exemplary embodiments of the present invention have been shown and described, simply by way of illustration. As those skilled in the art would realize, the described embodiments may be modified in various different ways, all without departing from the spirit or scope of the present invention. Accordingly, the drawings and description are to be regarded as illustrative in nature and not restrictive. In addition, when an element is referred to as being ‚Äúon‚Äù another element, it can be directly on the another element or be indirectly on the another element with one or more intervening elements interposed therebetween. Also, when an element is referred to as being ‚Äúconnected to‚Äù another element, it can be directly connected to the another element or be indirectly connected to the another element with one or more intervening elements interposed therebetween. Hereinafter, like reference numerals refer to like elements.
 [0033]
 Hereinafter, embodiments of the present invention will be described in detail with reference to the accompanying drawings. Hereinafter, embodiments are provided to be understood to those skilled in the art and can be varied in various forms and the scope of the present invention is not limited to the embodiments to be described below.
 [0034]

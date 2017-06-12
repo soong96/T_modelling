@@ -5,7 +5,9 @@
  */
 package topic_modelling;
 
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Scanner;
 
 /**
  *
@@ -19,6 +21,7 @@ public class Topic_modelling {
     public static void main(String[] args) throws FileNotFoundException {
         CountWord cw = new CountWord();
         cw.calcWordCount();
+
     }
     
 }

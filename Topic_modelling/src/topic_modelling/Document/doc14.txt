@@ -1,6 +1,6 @@
-Description
+ÔªøDescription
 CLAIM OF PRIORITY
-This application makes reference to, incorporates the same herein, and claims all benefits accruing under 35 U.S.C. ß119 from an application for THIN FILM TRANSISTOR, METHOD OF MANUFACTURING THE THIN FILM TRANSISTOR AND FLAT PANEL DISPLAY DEVICE HAVING THE THIN FILM TRANSISTOR earlier filed in the Korean Intellectual Property Office on May 30, 2008 and there duly assigned Serial No. 10-2008-0050802.
+This application makes reference to, incorporates the same herein, and claims all benefits accruing under 35 U.S.C. ¬ß119 from an application for THIN FILM TRANSISTOR, METHOD OF MANUFACTURING THE THIN FILM TRANSISTOR AND FLAT PANEL DISPLAY DEVICE HAVING THE THIN FILM TRANSISTOR earlier filed in the Korean Intellectual Property Office on May 30, 2008 and there duly assigned Serial No. 10-2008-0050802.
 
 BACKGROUND OF THE INVENTION
 1. Field of the Invention
@@ -19,7 +19,7 @@ In order to solve such a problem, studies on an oxide semiconductor used as an a
 
 A TFT using a zinc oxide (ZnO) or oxide semiconductor containing ZnO as a main component as an active layer has been disclosed in Japanese Patent Publication No. 2004-273614.
 
-An oxide semiconductor containing ZnO as a main component is estimated to be an amorphous and stable material. If such an oxide semiconductor is used as an active layer, a TFT can be manufactured using a conventional LTPS process, which can be performed at a low temperature of 300∞ C. or less.
+An oxide semiconductor containing ZnO as a main component is estimated to be an amorphous and stable material. If such an oxide semiconductor is used as an active layer, a TFT can be manufactured using a conventional LTPS process, which can be performed at a low temperature of 300¬∞ C. or less.
 
 However, in order to apply the oxide semiconductor containing ZnO as a main component to a device, it is required to develop a process satisfying electrical characteristics and improve characteristics in general. In addition, it is difficult to form an ohmic contact between a source/drain region and a metal electrode.
 
@@ -58,7 +58,7 @@ FIGS. 5A and 5B are respectively plan and cross-sectional views showing another 
 FIG. 6 is a cross-sectional view of an organic light emitting element of FIG. 5A.
 
 DETAILED DESCRIPTION OF PREFERRED EMBODIMENTS
-In the following detailed description, only certain exemplary embodiments of the present invention have been shown and described, simply by way of illustration. As those skilled in the art would realize, the described embodiments may be modified in various different ways, all without departing from the spirit or scope of the present invention. Accordingly, the drawings and description are to be regarded as illustrative in nature and not restrictive. In addition, when an element is referred to as being ìonî another element, it can be directly on the element or be indirectly on the another element with one or more intervening elements interposed therebetween. Also, when an element is referred to as being ìconnected toî another element, it can be directly connected to the element or be indirectly connected to the element with one or more intervening elements interposed therebetween. Hereinafter, like reference numerals refer to like elements.
+In the following detailed description, only certain exemplary embodiments of the present invention have been shown and described, simply by way of illustration. As those skilled in the art would realize, the described embodiments may be modified in various different ways, all without departing from the spirit or scope of the present invention. Accordingly, the drawings and description are to be regarded as illustrative in nature and not restrictive. In addition, when an element is referred to as being ‚Äúon‚Äù another element, it can be directly on the element or be indirectly on the another element with one or more intervening elements interposed therebetween. Also, when an element is referred to as being ‚Äúconnected to‚Äù another element, it can be directly connected to the element or be indirectly connected to the element with one or more intervening elements interposed therebetween. Hereinafter, like reference numerals refer to like elements.
 
 FIG. 1 is a cross-sectional view of a thin film transistor (TFT) showing according to the present invention.
 
@@ -74,7 +74,7 @@ Referring to FIG. 2B, an oxide semiconductor layer 18 a including channel, sourc
 
 In one embodiment, a GIZO layer may be formed using a co-sputtering method using two or more targets or a pulse laser deposition method. GaInZnO, InZnO, Ga2O3 or the like is used as the target, and ions including In, Ga and Zn are deposited from the target, thereby forming a GIZO layer having a carrier concentration of about 1e+13 to 1e+17 atoms/cm3. At this time, the carrier concentration may be controlled by a percentage of oxygen occupying the GIZO layer, i.e., oxygen partial pressure. At this time, if the carrier concentration is controlled to have 1e+17 atoms/cm3 or more, mobility increases while leakage current occurs in an off-state due to the decrease of specific resistivity.
 
-FIG. 3 is a graph showing a change in carrier concentration of an oxide semiconductor layer depending on an oxygen partial pressure. The oxygen partial pressure is controlled to be, for example, 30 to 90% in a deposition process, thereby forming an amorphous oxide semiconductor layer (IZO or GIZO) having a carrier concentration of 1e+13 to 1e+17 atoms/cm3. The change in carrier concentration depending on an oxygen partial pressure may refer to the paper (H. Hosono, ìNon-crystalline solidsî, 2006).
+FIG. 3 is a graph showing a change in carrier concentration of an oxide semiconductor layer depending on an oxygen partial pressure. The oxygen partial pressure is controlled to be, for example, 30 to 90% in a deposition process, thereby forming an amorphous oxide semiconductor layer (IZO or GIZO) having a carrier concentration of 1e+13 to 1e+17 atoms/cm3. The change in carrier concentration depending on an oxygen partial pressure may refer to the paper (H. Hosono, ‚ÄúNon-crystalline solids‚Äù, 2006).
 
 Referring to FIG. 2C, an ohmic contact layer 18 b having a carrier concentration higher than that of the oxide semiconductor layer 18 a of the source and drain regions is formed on a surface of the oxide semiconductor layer 18 a.
 

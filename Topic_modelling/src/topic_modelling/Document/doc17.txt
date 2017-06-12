@@ -1,4 +1,4 @@
-Description
+ÔªøDescription
 CROSS-REFERENCE TO RELATED APPLICATIONS
 [0001]
 This application claims the benefit of Korean Patent Application No. 10-2009-0125031, filed on Dec. 15, 2009, in the Korean Intellectual Property Office, the disclosure of which is incorporated herein in its entirety by reference.
@@ -20,7 +20,7 @@ However, the crystallization process used to manufacture poly-Si TFTs is complic
 [0009]
 Therefore, research has been actively conducted on novel TFTs having advantages of both a-Si TFTs and poly-Si TFTs. Oxide semiconductor devices are representative examples of the TFTs.
 [0010]
-Oxide semiconductor devices may be categorized into crystalline oxide semiconductor devices including a crystalline oxide such as ZnO and amorphous oxide semiconductor devices including an amorphous oxide such as GIZO (GalnZnO). The amorphous oxide semiconductor devices may be manufactured at a low temperature, easily be made in large sizes, and have high mobility and an excellent electric characteristic like the poly-Si TFT. Thus, research is currently being conducted in order to use an oxide semiconductor layer in a channel area of a TFT. In an oxide semiconductor, since the overlapping of a wave function of an s-orbital where electrons that are the least anisotropic according to a direction among the outermost electrons of a metal reside contributes to the band charge transfer of electrons, it is considered that an amorphous thin film fanned of the oxide semiconductor may have a high mobility, such as, 10 cm2/V∑s or greater.
+Oxide semiconductor devices may be categorized into crystalline oxide semiconductor devices including a crystalline oxide such as ZnO and amorphous oxide semiconductor devices including an amorphous oxide such as GIZO (GalnZnO). The amorphous oxide semiconductor devices may be manufactured at a low temperature, easily be made in large sizes, and have high mobility and an excellent electric characteristic like the poly-Si TFT. Thus, research is currently being conducted in order to use an oxide semiconductor layer in a channel area of a TFT. In an oxide semiconductor, since the overlapping of a wave function of an s-orbital where electrons that are the least anisotropic according to a direction among the outermost electrons of a metal reside contributes to the band charge transfer of electrons, it is considered that an amorphous thin film fanned of the oxide semiconductor may have a high mobility, such as, 10 cm2/V¬∑s or greater.
 [0011]
 However, recent reports have disclosed that the characteristics of commonly used InGaZnO oxide semiconductor devices deteriorate when exposed to plasma or external agents (for example, moisture, oxygen, or the like). Also, to protect the oxide semiconductor layer, an etch stop layer is formed on the oxide semiconductor layer. However, depending on the conditions for forming the etch stop layer, the characteristics of the oxide semiconductor devices may severely deteriorate. In addition, the condition ranges wherein the characteristics of the oxide semiconductor devices do not deteriorate are limited, and thus there is a need for fundamental changes in the oxide semiconductor devices.
 SUMMARY
@@ -65,7 +65,7 @@ DETAILED DESCRIPTION
 [0030]
 The present embodiments will now be described more fully with reference to the accompanying drawings, in which exemplary embodiments are shown. The present embodiments may, however, be embodied in many different forms and should not be construed as being limited to the embodiments set forth herein; rather, these embodiments are provided so that this disclosure will be thorough and complete, and will fully convey the concept of the embodiments to those skilled in the art.
 [0031]
-The term ìHfInZnO-based oxide semiconductorî used herein refers to an oxide semiconductor including hafnium (Hf), indium (In), zinc (Zn), and oxygen (O), wherein a composition ratio of Hf, In, Zn, and O may vary. In this specification, the concentration of Hf and Zn is represented by an atomic percentage (at %), and the total atomic percentage (at %) of Hf, In, and Zn is 100.
+The term ‚ÄúHfInZnO-based oxide semiconductor‚Äù used herein refers to an oxide semiconductor including hafnium (Hf), indium (In), zinc (Zn), and oxygen (O), wherein a composition ratio of Hf, In, Zn, and O may vary. In this specification, the concentration of Hf and Zn is represented by an atomic percentage (at %), and the total atomic percentage (at %) of Hf, In, and Zn is 100.
 [0032]
 FIG. 1 is a cross-sectional view illustrating a structure of an oxide semiconductor thin film transistor 10 including an oxide semiconductor layer, according to an embodiment.
 [0033]
@@ -133,7 +133,7 @@ Referring to FIG. 4A, the gate electrode 23 is formed on the substrate 21. The s
 [0064]
 A conductive oxide layer comprising, for example, a metal such as Ti, Pt, Ru, Cu, Au, Ag, Mo, Cr, Al, Ta, W, or alloys thereof, or a conductive oxide such as tin oxide, zinc oxide, indium oxide, ITO, IZO, GZO, IGO, or AZO is formed on the substrate 21, and patterned to form the gate electrode 23. Optionally, a buffer layer (not shown) is formed on the substrate 21, and the gate electrode 23 may be then formed thereon.
 [0065]
-Referring to FIG. 4B, the gate insulating layer 25 is formed on the substrate 21 on which the gate electrode 23 is formed, wherein the gate insulating layer 25 comprises, for example, a dielectric material such as SiO2, SiNX, SiON, HfO2, Al2O3ó, Y2O3, or Ta2O5, a high-K dielectric material, or mixtures thereof.
+Referring to FIG. 4B, the gate insulating layer 25 is formed on the substrate 21 on which the gate electrode 23 is formed, wherein the gate insulating layer 25 comprises, for example, a dielectric material such as SiO2, SiNX, SiON, HfO2, Al2O3‚Äî, Y2O3, or Ta2O5, a high-K dielectric material, or mixtures thereof.
 [0066]
 Referring to FIG. 4C, an HfInZnO-based oxide semiconductor layer is formed on the gate insulating layer 25, and patterned to form the oxide semiconductor layer 27. In this regard, the oxide semiconductor layer 27 includes a first oxide semiconductor layer 27 a formed on the gate insulating layer 25 and a second oxide semiconductor layer 27 b formed on the first oxide semiconductor layer 27 a. In this regard, the concentration of Hf is higher in the second oxide semiconductor layer 27 b than in the first oxide semiconductor layer 27 a.
 [0067]
@@ -160,11 +160,11 @@ Alternatively, the HfInZnO-based oxide semiconductor layer 117 may have a Zn con
 The anode 131 is electrically connected to any one of the source and drain 119. The organic electroluminescent device 300 may further include a capacitor for maintaining a signal.
 Measurement of Characteristics and Stability of HfInZnO-Based Oxide Semiconductor Thin Film Transistor (TFT)
 [0078]
-A gate electrode comprising Mo was formed on a glass substrate to have a thickness of 1000 ≈, a width of 150 nm, and a length of 1000 nm, and a gate insulating layer comprising SiNx and SiOx was formed on the glass substrate and the gate electrode to have thicknesses of 400 ≈ and 800 ≈, respectively. An HfInZnO-based oxide semiconductor layer was formed on the gate insulating layer to have a thickness of 300 to 500 ≈.
+A gate electrode comprising Mo was formed on a glass substrate to have a thickness of 1000 √Ö, a width of 150 nm, and a length of 1000 nm, and a gate insulating layer comprising SiNx and SiOx was formed on the glass substrate and the gate electrode to have thicknesses of 400 √Ö and 800 √Ö, respectively. An HfInZnO-based oxide semiconductor layer was formed on the gate insulating layer to have a thickness of 300 to 500 √Ö.
 [0079]
 The HfInZnO-based oxide semiconductor layer was formed by co-sputtering by respectively applying powers to three targets of HfO2, In2O3, and ZnO in a sputter chamber and then patterned.
 [0080]
-Subsequently, In2O3 was formed on the HfInZnO-based oxide semiconductor layer to have a thickness of 1000 ≈ and patterned to form source/drain respectively extending on both sides of the HfInZnO-based oxide semiconductor layer and the substrate.
+Subsequently, In2O3 was formed on the HfInZnO-based oxide semiconductor layer to have a thickness of 1000 √Ö and patterned to form source/drain respectively extending on both sides of the HfInZnO-based oxide semiconductor layer and the substrate.
 [0081]
 During the formation of the HfInZnO-based oxide semiconductor layer, an atomic ratio of Zn to In and the concentration (at %) of Hf in the HfInZnO-based oxide semiconductor layer were varied by adjusting the powers respectively applied to the targets. The electrical characteristics of a thin film transistor including an oxide semiconductor layer having a different atomic ratio of Zn to In and different Hf concentration compositions were measured.
 [0082]
@@ -178,13 +178,13 @@ Table 1 below shows measurement results of the characteristics and stability of 
 [0000]
 TABLE 1
 Mobility	S-factor	
-Zn:In	Hf (at %)	VTH (V)	(cm2/V ∑ s)	(V/dec)	?V (V)
+Zn:In	Hf (at %)	VTH (V)	(cm2/V ¬∑ s)	(V/dec)	?V (V)
 38:55	5.0	0.08	16.96	0.28	10.1
 38:55	7.8	1.91	11.94	0.35	9.4
 35:54	11.0	1.95	6.70	0.32	5.1
 39:48	12.3	4.56	2.59	0.81	3.7
 [0086]
-In Table 1 and FIG. 7, Zn:In denotes an atomic ratio of Zn to In in the HfInZnO-based oxide semiconductor, Hf(at %) denotes the concentration (atomic percentage) of Hf in the HfInZnO-based oxide semiconductor, VTH (threshold voltage) denotes a minimum voltage for forming a channel in a transistor so as to allow current flow, and mobility denotes an average velocity of a carrier (electron) in the HfInZnO-based oxide semiconductor. In addition, S-factor (sub-threshold swing) denotes the inverse of the slope of the graph of FIG. 7 in a section where the HfInZnO-based oxide semiconductor TFT acts as a switching device, ?V denotes a change of threshold voltage VTH before and after the HfInZnO-based oxide semiconductor is under DC stress, and the DC stress denotes a change of VTH (?VTH) when a gate bias voltage of ±5 V was applied to the HfInZnO-based oxide semiconductor for 1 hour.
+In Table 1 and FIG. 7, Zn:In denotes an atomic ratio of Zn to In in the HfInZnO-based oxide semiconductor, Hf(at %) denotes the concentration (atomic percentage) of Hf in the HfInZnO-based oxide semiconductor, VTH (threshold voltage) denotes a minimum voltage for forming a channel in a transistor so as to allow current flow, and mobility denotes an average velocity of a carrier (electron) in the HfInZnO-based oxide semiconductor. In addition, S-factor (sub-threshold swing) denotes the inverse of the slope of the graph of FIG. 7 in a section where the HfInZnO-based oxide semiconductor TFT acts as a switching device, ?V denotes a change of threshold voltage VTH before and after the HfInZnO-based oxide semiconductor is under DC stress, and the DC stress denotes a change of VTH (?VTH) when a gate bias voltage of ¬±5 V was applied to the HfInZnO-based oxide semiconductor for 1 hour.
 [0087]
 Referring to Table 1 and FIG. 7, as the concentration of Hf in the HfInZnO-based oxide semiconductor increases, the threshold voltage (VTH) increases, the mobility of the HfInZnO-based oxide semiconductor decreases, and the S-factor increases. From the results, it is confirmed that as the concentration of Hf in the HfInZnO-based oxide semiconductor increases, the electrical characteristics of the TFT are deteriorated, on the other hand, the stability of the TFT is enhanced.
 [0088]
@@ -192,7 +192,7 @@ Table 2 below shows measurement results of the characteristics and stability of 
 [0000]
 TABLE 2
 Mobility	S-factor	
-Zn:In	Hf (at %)	VTH (V)	(cm2/V ∑ s)	(V/dec)	?V (V)
+Zn:In	Hf (at %)	VTH (V)	(cm2/V ¬∑ s)	(V/dec)	?V (V)
 49:46	5.0	0.86	22.88	0.33	9.4
 48:45	6.8	2.43	10.78	0.30	6.2
 44:46	9.8	1.48	5.01	0.54	3.7

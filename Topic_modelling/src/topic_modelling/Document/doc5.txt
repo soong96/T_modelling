@@ -1,9 +1,9 @@
-Description
+ÔªøDescription
 CROSS-REFERENCE TO RELATED APPLICATIONS
 [0001]
 This application claims priority to and the benefit of Korean Patent Application No. 10-2009-0094561, filed on Oct. 6, 2009, in the Korean Intellectual Property Office, the entire content of which is incorporated herein by reference.
 [0002]
-This application relates to U.S. patent application entitled ìThin film transistor, method of manufacturing the thin film transistor and organic light emitting display device having thin film transistorî (Attorney docket: SMDSHN.152AUS), which is concurrently filed as this application and incorporated herein by reference in its entirety.
+This application relates to U.S. patent application entitled ‚ÄúThin film transistor, method of manufacturing the thin film transistor and organic light emitting display device having thin film transistor‚Äù (Attorney docket: SMDSHN.152AUS), which is concurrently filed as this application and incorporated herein by reference in its entirety.
 BACKGROUND
 [0003]
 1. Field of the Invention
