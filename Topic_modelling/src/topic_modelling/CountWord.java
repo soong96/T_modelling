@@ -30,10 +30,10 @@ public class CountWord {
         Scanner sc2 = null;
         stopWords();
         Stemmer stem= new Stemmer();
-        for(int y = 1; y < 11; y++){
+        for(int y = 1; y < 21; y++){
             String b = "doc"+y;
             try {                
-                sc2 = new Scanner(new File("src\\topic_modelling\\" + b + ".txt"));
+                sc2 = new Scanner(new File("src\\topic_modelling\\Document\\" + b + ".txt"));
             } catch (FileNotFoundException e) {
                 e.printStackTrace();  
             }
@@ -41,22 +41,26 @@ public class CountWord {
                     Scanner s2 = new Scanner(sc2.nextLine());
                 while (s2.hasNext()) {
                     String s = s2.next();
+                    s = stem.stem(s);
                     String[] words = s.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s");
-                    words[0] = stem.stem(words[0]);
+                    
                     if(!stopwords.contains(words[0])){
                         if(!map.containsKey(words[0])){
                             map.put(words[0],0.0);
                         }
                     }
+
+                    map.remove("");
+
                 }
             }
         }
 
-        for(int y = 1; y < 11; y++){     
+        for(int y = 1; y < 21; y++){     
             
             String b = "doc"+y;
             try {                
-                sc2 = new Scanner(new File("src\\topic_modelling\\" + b + ".txt"));
+                sc2 = new Scanner(new File("src\\topic_modelling\\Document\\" + b + ".txt"));
             } catch (FileNotFoundException e) {
                 e.printStackTrace();  
             }
@@ -64,8 +68,9 @@ public class CountWord {
                     Scanner s2 = new Scanner(sc2.nextLine());
                 while (s2.hasNext()) {
                     String s = s2.next();
+                    s = stem.stem(s);
                     String[] words = s.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s");
-                    words[0] = stem.stem(words[0]);
+                   // words[0] = stem.stem(words[0]);
                     if(!stopwords.contains(words[0])){
                         if(map.containsKey(words[0])){
                             double i = map.get(words[0])+1;
@@ -76,6 +81,7 @@ public class CountWord {
                         }      
                     }
                 }
+                map.remove("");
                 
             }
             double first = 0;

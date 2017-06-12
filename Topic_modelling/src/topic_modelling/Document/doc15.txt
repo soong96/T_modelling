@@ -1,0 +1,134 @@
+Description
+CLAIM OF PRIORITY
+[0001]
+This application makes reference to, incorporates the same herein, and claims all benefits accruing under 35 U.S.C. §119 from an application earlier filed in the Korean Intellectual Property Office on the 20th of January 2009 and there duly assigned Serial No. 10-2009-0004549.
+BACKGROUND OF THE INVENTION
+[0002]
+1. Field of the Invention
+[0003]
+The present invention relates to a thin film transistor, a manufacturing method thereof, and a flat panel display device having the same. More particularly, the present invention relates to a thin film transistor using an oxide semiconductor as an active layer, a manufacturing method thereof, and a flat panel display device having the same.
+[0004]
+2. Description of the Related Art
+[0005]
+Flat panel display devices such as a liquid crystal display device (LCD) and an organic light emitting display device (OLED) are classified into a passive matrix type and an active matrix type according to a driving method of pixels.
+[0006]
+Since respective pixels are controlled by thin film transistors (TFT) serving as a switch, the active matrix type flat panel display device has a short response time and a high image quality.
+[0007]
+In the thin film transistor used in the active matrix type flat panel display device, an active layer for providing source and drain regions and a channel region is made of semiconductor such as amorphous silicon, poly-silicon, and low temperature poly-silicon (LTPS).
+[0008]
+However, when the active layer is formed of amorphous silicon, it is difficult to realize a drive circuit operated at a high speed due to its low mobility. When the active layer is formed of poly-silicon, since its threshold voltage is not uniform due to its polycrystalline nature. An active layer formed of low-temperature poly-silicon requires the laser heat treatment for crystallization.
+[0009]
+In order to solve the above problems, studies on use of an oxide semiconductor layer as an active layer are recently being carried out.
+[0010]
+Japanese Patent Laid-Open No. 2004-273614 discloses a thin film transistor in which an oxide semiconductor mainly consists of zinc oxide (ZnO) as an active layer.
+[0011]
+The oxide semiconductor mainly consisting of zinc oxide (ZnO) is judged to be amorphous and stable. When such an oxide semiconductor is used as an active layer, a thin film transistor can be manufactured at a low temperature using conventional equipment without purchasing separate equipment and processes such as ion implantation can be omitted.
+[0012]
+However, since the oxide semiconductor has a low etching selectivity with respect to silicon oxide (SiOx) or silicon nitride (SiNx) used as a gate insulating layer, the active layer may be deteriorated during the patterning of the gate insulating layer. Like the thin film transistor of Japanese Patent Laid-Open No. 2004-273614, in a structure in which source and drain electrode are overlapped with a gate electrode, a signal delay or cross talk may be occurred due to parasitic capacitance between the source and drain electrodes and the gate electrode.
+[0013]
+The above information disclosed in this Related Art section is only for enhancement of understanding of the background of the invention and therefore it may contain information that does not form the prior art that is already known to a person of ordinary skill in the art.
+SUMMARY OF THE INVENTION
+[0014]
+Accordingly, it is an aspect of the present invention to provide a thin film transistor capable of preventing deterioration of an active layer that occurs during the patterning of a gate insulating layer, a method of manufacturing the same, and a flat panel display device having the same.
+[0015]
+It is another aspect of the present invention to provide a thin film transistor capable of miniaturizing parasitic capacitance between source and drain electrodes and a gate electrode, a method of manufacturing the same, and a flat panel display device having the same.
+[0016]
+In order to achieve the foregoing and/or other objects of the present invention, according to an aspect of the present invention, there is provided a thin film transistor comprising: a substrate; an active layer of an oxide semiconductor formed on the substrate; a gate insulating layer formed of a dielectric on the active layer, the dielectric having an etching selectivity of 20 to 100:1 with respect to the oxide semiconductor; a gate electrode formed on the gate insulating layer; an insulating layer formed on the substrate including the gate electrode and having contact holes to expose the active layer at both sides of the gate electrode; and source and drain electrodes connected to the active layer through the contact holes.
+[0017]
+According to another aspect of the present invention, there is provided a method of manufacturing a thin film transistor including: sequentially forming a semiconductor layer, a dielectric layer, and a conductive layer on a substrate; forming a gate electrode by patterning the conductive layer; forming a gate insulating layer by patterning the dielectric layer using the gate electrode as a mask; forming the active layer by patterning the oxide semiconductor layer; forming an insulating layer on the substrate including the gate electrode and forming contact holes to expose the active layer at both sides of the gate electrode; and forming source and drain electrodes connected to the active layer through the contact hole in the insulating layer.
+[0018]
+According to still another aspect of the present invention, there is provided a flat panel display including: a first substrate in which a plurality of pixels are defined by a plurality of first conductive lines and second conductive lines, a thin film transistor controlling signals to be supplied to the respective pixels, and a first electrode connected to the thin film transistor is formed; a second substrate in which a second electrode is formed; and a liquid crystal layer injected into a sealed space between the first electrode and the second electrode; wherein the thin film transistor includes: an active layer formed of an oxide semiconductor on the first substrate; a gate insulating layer formed of a dielectric on the active layer, the dielectric having an etching selectivity of 20 to 100:1 with respect to the oxide semiconductor; a gate electrode foamed on the gate insulating layer; an insulating layer formed on the substrate including the gate electrode and having contact holes to expose the active layer at both sides of the gate electrode; and source and drain electrodes connected to the active layer through the contact holes.
+[0019]
+According to still another aspect of the present invention, there is provided a flat panel display device including: an organic light emitting diode including a first substrate in which a first electrode, an organic thin film, and a second electrode and a thin film transistor controlling the organic light emitting diode are formed; and a second substrate disposed to face the first substrate; wherein the thin film transistor includes: an active layer formed of an oxide semiconductor on the first substrate; a gate insulating layer formed of a dielectric on the active layer, the dielectric having an etching selectivity of 20 to 100:1 with respect to the oxide semiconductor; a gate electrode formed on the gate insulating layer; an insulating layer formed on the substrate including the gate electrode and having contact holes to expose the active layer at both sides of the gate electrode; and source and drain electrodes connected to the active layer through the contact holes.
+[0020]
+According to the thin film transistor of the present invention, since the active layer is formed of oxide semiconductor, the thin film transistor can be manufactured at a low temperature using conventional equipment without purchasing separate equipment and processes such as ion implantation can be omitted. Moreover, since the source and drain electrodes are not overlapped with the gate electrode, parasitic capacitance between the source and drain electrodes and the gate electrode is miniaturized so that signal delay and cross talk are not generated.
+[0021]
+Furthermore, according to the method of manufacturing a thin film transistor of the present invention, since the gate insulating layer is patterned using the gate electrode as a mask, fewer masks, less time, and fewer processes are involved in the method. Since the gate insulating layer is formed of a dielectric with a high etching selectivity with respect to oxide semiconductor, deterioration of the active layer does not occur during the patterning of the gate insulating layer.
+BRIEF DESCRIPTION OF THE DRAWINGS
+[0022]
+A more complete appreciation of the invention, and many of the attendant advantages thereof, will be readily apparent as the same becomes better understood by reference to the following detailed description when considered in conjunction with the accompanying drawings, in which like reference symbols indicate the same or similar components, wherein:
+[0023]
+FIG. 1 is a cross-sectional view illustrating a thin film transistor according to the present invention;
+[0024]
+FIGS. 2A to 2D are cross-sectional views illustrating a method of manufacturing a thin film transistor according to the present invention;
+[0025]
+FIG. 3 is a plan view illustrating an embodiment of a flat panel display device employing the thin film transistor according to the present invention;
+[0026]
+FIGS. 4A and 4B are a plan view and a cross-sectional view illustrating another embodiment of a flat panel display device employing the thin film transistor according to the present invention; and
+[0027]
+FIG. 5 is a cross-sectional view illustrating an organic light emitting diode of FIG. 4A.
+DETAILED DESCRIPTION OF THE INVENTION
+[0028]
+In the following detailed description, only certain exemplary embodiments of the present invention have been shown and described, simply by way of illustration. As those skilled in the art would realize, the described embodiments may be modified in various different ways, all without departing from the spirit or scope of the present invention. Accordingly, the drawings and description are to be regarded as illustrative in nature and not restrictive. In addition, when an element is referred to as being “on” another element, it can be directly on the another element or be indirectly on the another element with one or more intervening elements interposed therebetween. Also, when an element is referred to as being “connected to” another element, it can be directly connected to the another element or be indirectly connected to the another element with one or more intervening elements interposed therebetween. Hereinafter, like reference numerals refer to like elements.
+[0029]
+The present invention will be described more fully hereinafter with reference to the accompanying drawings, in which exemplary embodiments of the invention are shown. As those skilled in the art would realize, the described embodiments may be modified in various different ways, all without departing from the spirit or scope of the principles for the present invention.
+[0030]
+Recognizing that sizes and thicknesses of constituent members shown in the accompanying drawings are arbitrarily given for better understanding and ease of description, the present invention is not limited to the illustrated sizes and thicknesses.
+[0031]
+In the drawings, the thickness of layers, films, panels, regions, etc., are exaggerated for clarity. Like reference numerals designate like elements throughout the specification. It will be understood that when an element such as a layer, film, region, or substrate is referred to as being “on” another element, it can be directly on the other element or intervening elements may also be present. Alternatively, when an element is referred to as being “directly on” another element, there are no intervening elements present.
+[0032]
+In order to clarify the present invention, elements extrinsic to the description are omitted from the details of this description, and like reference numerals refer to like elements throughout the specification.
+[0033]
+In several exemplary embodiments, constituent elements having the same configuration are representatively described in a first exemplary embodiment by using the same reference numeral and only constituent elements other than the constituent elements described in the first exemplary embodiment will be described in other embodiments.
+[0034]
+Hereinafter, certain exemplary embodiments according to the present invention will be described with reference to the accompanying drawings.
+[0035]
+FIG. 1 is a cross-sectional view illustrating a thin film transistor according to the present invention.
+[0036]
+Referring to FIG. 1, buffer layer 11 is formed on substrate 10, and active layer 12 made of an oxide semiconductor is formed on buffer layer 11. Active layer 12 providing source and drain regions and a channel region is made of zinc oxide (ZnO), ZnGaO, ZnInO, ZnSnO, or GaInZnO on which at least one ion of gallium (Ga), indium (In), stannum (Sn), zirconium (Zr), hafnium (Hf), and vanadium (V) is doped to zinc oxide (ZnO).
+[0037]
+Gate insulating layer 13 and gate electrode 14 are formed on active layer 12. Gate insulating layer 13 and gate electrode 14 are formed on the channel region of oxide semiconductor layer 12. Gate insulating layer 13 is formed of a dielectric having an etching selectivity with respect to the oxide semiconductor forming active layer 12 higher than 20:1, preferably 20 to 100:1. Aluminum oxide (AlxOy), hafnium oxide (HfxOy), yttrium oxide (YxOy), zirconium oxide (ZrxOy), and Gallium oxide (GaOx), or a mixture thereof can be used as the dielectric having a high dielectric constant (high-k) of 3 to 30. In the dielectrics, x and y are preferably in a range of 1 to 3.
+[0038]
+Insulating layer 15 is formed on the substrate including gate electrode 14, and contact holes are formed in insulating layer 15 to expose the source and drain regions of active layer 12. Source and drain electrodes 16 are formed on insulating layer 15 to be connected to the source and drain regions of active layer 12 through the contact holes. In this case, source and drain electrodes 16 are formed without overlapping with gate electrode 14.
+[0039]
+As described above, the thin film transistor according to the present invention, since the active layer is formed of an oxide semiconductor, a thin film transistor can be manufactured at a low temperature using conventional equipment without purchasing separate equipment and processes such as ion implantation can be omitted. Moreover, since source and drain electrodes 16 are not overlapped with gate electrode 14, a parasitic capacitance between source and drain electrodes 16 and gate electrode 14 is miniaturized so that a signal delay or cross talk does not occur.
+[0040]
+Hereinafter, the present invention will be described in detail through a process of manufacturing the thin film transistor.
+[0041]
+FIGS. 2A to 2D are cross-sectional views illustrating a method of manufacturing a thin film transistor according to the present invention.
+[0042]
+Referring to FIG. 2A, after forming buffer layer 11 the substrate 10, oxide semiconductor layer 12 a, dielectric layer 13 a, and conductive layer 14 a are sequentially formed on buffer layer 11.
+[0043]
+Oxide semiconductor layer 12 a is formed of zinc oxide (ZnO) or ZnGaO, ZnInO, ZnSnO, and GaInZnO that are zinc oxide (ZnO) doped with at least one ion of gallium (Ga), indium (In), stannum (Sn), zirconium (Zr), hafnium (Hf), and vanadium (V). Moreover, the dielectric layer 13 a is formed of a dielectric having an etching selectivity with respect to the oxide semiconductor forming active layer 12 a higher than 20:1, preferably 20 to 100:1. Aluminum oxide (AlxOy), hafnium oxide (HfxOy), yttrium oxide (YxOy), zirconium oxide (ZrxOy), and Gallium oxide (GaOx), or a mixture thereof can be used as the dielectric having a high dielectric constant (high-k) of 3 to 30.
+[0044]
+Referring to FIG. 2B, the gate electrode 14 is formed by patterning conductive layer 14 a, and then the gate insulating layer 13 is formed by patterning dielectric layer 13 a via etching using gate electrode 14 as a mask. The etching process for patterning dielectric layer 13 a is performed by a dry etching process, in which oxide semiconductor layer 12 a is not deteriorated due to a high etching selectivity even when oxide semiconductor layer 12 a is exposed during the patterning of dielectric layer 13 a.
+[0045]
+If dielectric layer 13 a is formed of silicon oxide (SiOx) or silicon nitride (SiNx) having a dielectric constant of 2 to 3, since the silicon oxide (SiOx) and the silicon nitride (SiNx) have an etching selectivity of 10:1 with respect to the oxide semiconductor, active layer 12 may be deteriorated. However, since dielectric layer 13 a is formed of material having an etching selectivity of 20 to 100:1 with respect to the oxide semiconductor, it is possible to prevent oxide semiconductor layer 12 a exposed during the patterning of dielectric layer 13 a from being deteriorated. Moreover, since gate insulating layer 13 is formed of a dielectric having a high dielectric constant, when a capacitor of metal/insulator/semiconductor structure having gate electrode 14 and active layer 12 as electrodes, for example, when a capacitor connected to a transistor is implemented, high capacitance can be easily achieved.
+[0046]
+Referring to FIG. 2C, active layer 12 is formed by patterning the oxide semiconductor layer 12 a. Active layer 12 is formed such that the channel region thereof overlaps with gate electrode 12. Active layer 12 is formed to have a width greater than gate electrode 14 such that both sides of gate electrode 14, i.e., the source and drain regions of active layer 12, can be exposed.
+[0047]
+Referring to FIG. 2D, after forming insulating layer 15 on the substrate including gate electrode 14 with silicon oxide (SiOx), silicon nitride (SiNx), and silicon oxynitride (SiONx), contact holes 15 a are formed to expose the active layer at both sides of gate electrode 14. Source and drain electrodes 16 are formed on insulating layer 15 to be connected to active layer 12 through contact holes 15 a. In this case, source and drain electrodes 16 do not overlapped with gate electrode 14.
+[0048]
+The thin film transistor of the present invention formed as described above can be applied to a flat panel display device.
+[0049]
+FIG. 3 is a perspective view illustrating an embodiment of a flat panel display device employing the thin film transistor according to the present invention, and the flap panel display device will be described by concentrating display panel 100 for displaying an image.
+[0050]
+Display panel 100 includes two substrates 110 and 120 which are disposed to face each other and liquid crystal layer 130 disposed between the two substrates 110 and 120, in which to pixel region 113 is defined by a plurality of gate lines 111 and data lines 112 which are arranged in a matrix manner. Thin film transistor 114 controlling signals to be supplied to pixels and pixel electrode 115 connected to thin film transistor 114 are formed on intersection portions of substrate 110 of gate lines 111 and the data lines 112.
+[0051]
+Thin film transistor 114 has a structure as shown in FIG. 1 and can be manufactured by the manufacturing method as described with reference to FIGS. 2A to 2D.
+[0052]
+Color filter 121 and common electrode 122 are formed on substrate 120. Polarizing plates 116 and 123 are formed behind substrates 110 and 120, respectively, and a backlight (not shown) is disposed behind polarizing plate 116 as a light source.
+[0053]
+Meanwhile, an LCD drive IC (not shown) for driving display panel 110 is mounted around pixel region 113 of display panel 100. The LCD drive IC converts an electric signal provided from the outside into a scan signal and a data signal and supplies the converted signals to gate lines 111 and data lines 112, respectively.
+[0054]
+FIGS. 4A and 4B are a plan view and a cross-sectional view illustrating another embodiment of a flat panel display device employing the thin film transistor according to the present invention, and the flat panel display device will be briefly described by concentrating display panel 200 for displaying an image.
+[0055]
+Referring to FIG. 4A, substrate 210 is defined by pixel region 220 and non-pixel region 230 around pixel region 220. A plurality of organic light emitting display devices 300 connected to scan lines 224 and data lines 226 in a matrix manner are formed in pixel region 220 of substrate 210. In non-pixel region 230 of substrate 210, scan lines 224 and data lines 226 extending from scan lines 224 and data lines 226 of pixel region 220, a power supplying line (not shown) for driving organic light emitting display device 300, and scan driving unit 234 and data driving unit 236 for processing signals provided from the outside through pad 228 to supply the processed signals to scan lines 224 and data lines 226 are formed.
+[0056]
+Referring to FIG. 5, organic light emitting display device 300 includes anode electrode 317, cathode electrode 320, and organic thin film 319 formed between anode electrode 317 and cathode electrode 320. Organic thin film 319 is formed in a structure in which a hole-transport layer, an organic emission layer, and an electron transport layer are laminated, and may further include a hole injection layer and an electron injection layer. Moreover, organic light emitting display device 300 may further include a thin film transistor for controlling organic light emitting display device 300 and a capacitor for maintaining signals.
+[0057]
+The thin film transistor has a structure as illustrated in FIG. 1, and can be manufactured by the manufacturing method according to the present invention as described with reference to FIGS. 2A to 2D.
+[0058]
+Organic light emitting display device 300 including the thin film transistor will be described in detail with reference to FIGS. 4A to 5 as follows.
+[0059]
+Buffer layer 11 is formed on substrate 210, and active layer 12 of an oxide semiconductor is formed on buffer layer 11. Gate insulating layer 13 and gate electrode 14 are formed on active layer 12. In this case, scan lines 224 connected to gate electrode 14 are formed in pixel region 220, and scan lines 224 extending from scan lines 224 of pixel region 220 the pad 228 for receiving signals from the outside may be formed in non-pixel region 230.
+[0060]
+Insulating layer 15 is formed on the substrate including gate electrode 14, and the contact holes are formed in insulating layer 15 to expose the source and drain regions of active layer 12. The source and drain electrodes 16 are formed on insulating layer 15 to be connected to the source and drain regions of active layer 12 through the contact holes. In this case, source and drain electrodes 16 do not overlapped with gate electrode 14. Moreover, data lines 226 connected to source and drain electrodes 16 are formed in pixel region 220 during the formation of source and drain electrodes 16, and data lines 226 extending from data lines 226 of pixel region 220 and pad 228 for receiving signals from the outside are formed in non-pixel region 230.
+[0061]
+Planarizing layer 17 is formed on the substrate including the source and drain electrodes 16, and via-holes are formed in planarizing layer 17 to expose source and drain electrode 16. Anode electrode 317 connected to source and drain electrode 16 through the via-holes is formed.
+[0062]
+Pixel defining layer 318 is formed on planarizing layer 17 to expose a partial region (emission region) of anode electrode 317, organic thin film 319 is formed on exposed anode electrode 317, and cathode electrode 320 is formed on pixel defining layer 318 including organic thin film 319.’
+[0063]
+Referring to FIG. 4B, as described above, encapsulating substrate 400 sealing pixel region 220 is disposed above substrate 210 in which organic light emitting display device 300 is formed, and encapsulating substrate 400 is bonded to substrate 210 by sealing member 410, thereby completing display panel 200.
+[0064]
+While the present invention has been described in connection with certain exemplary embodiments, it is to be understood that the invention is not limited to the disclosed embodiments, but, on the contrary, is intended to cover various modifications and equivalent arrangements included within the spirit and scope of the appended claims, and equivalents thereof.
