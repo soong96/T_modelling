@@ -131,12 +131,12 @@ public class CountWord {
                 
                 String doc2 = "doc" + i;
                 String compare = doc1 +" : " + doc2;
-                if(!doc1.equals(doc2)){
+                //if(!doc1.equals(doc2)){
                     double result = cosineSimilarity((HashMap)mapAllTFIDF.get(doc1),(HashMap)mapAllTFIDF.get(doc2));
                     similarityMatrix.put(compare, result);
-                }
-                else
-                    similarityMatrix.put(compare, 0.0);                    
+                //}
+               //// else
+               //     similarityMatrix.put(compare, 0.0);                    
             }
         }        
         writeCSVSimilarMatrix("Cosine");
@@ -147,12 +147,12 @@ public class CountWord {
                 
                 String doc2 = "doc" + i;
                 String compare = doc1 +" : " + doc2;
-                if(!doc1.equals(doc2)){
+              //  if(!doc1.equals(doc2)){
                     double result = manhanttanDistance((HashMap)mapAllTFIDF.get(doc1),(HashMap)mapAllTFIDF.get(doc2));
                     similarityMatrix.put(compare, result);
-                }
-                else
-                    similarityMatrix.put(compare, 0.0);
+              //  }
+            //    else
+             //       similarityMatrix.put(compare, 0.0);
                 
             }
         }
@@ -310,7 +310,8 @@ public class CountWord {
             normY = normY + Math.pow(hash2.get(key), 2);           
         }
         double finalResult = dotProduct/ (Math.sqrt(normX)* Math.sqrt(normY));
-        return 1 - finalResult;
+        //return 1 - finalResult;
+        return finalResult;
     }
     
     public double manhanttanDistance(HashMap doc1, HashMap doc2){
