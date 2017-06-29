@@ -12,7 +12,11 @@ We used the library found on github created by lbehnke to do Hierarchical Cluste
 
 # Explanation
 Topic_modelling.java is the where the main class at.
+
 java file start with Task (e.g. TaskGetCosine) is the tasks created and to be given to thread pool for process.
+
 CountWord.java is the class that store all the method for topic_modelling.
+
 CSVReader.java is the class to read the CSV file of similarity matrix for clustering.
+
 Stemmer.java is the library we gotten from exude uttesh.
