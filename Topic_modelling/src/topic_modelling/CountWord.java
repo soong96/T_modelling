@@ -12,6 +12,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 /**
  *
@@ -22,83 +23,100 @@ public class CountWord {
     private HashMap<String, Double> map = new HashMap<String, Double>();
     private HashMap<String, Double> mapTFIDF = new HashMap<String, Double>();
     private HashMap<String, Object> mapAllTFIDF = new HashMap<String, Object>();
-    private HashMap<String, Double> similarityMatrix = new HashMap<String, Double>();
+    //private HashMap<String, Double> similarityMatrix = new HashMap<String, Double>();
     private LinkedList<String> stopwords = new LinkedList<String>();
     private static final char DEFAULT_SEPARATOR = ',';
+    public int wordcount = 0;
+    public int totalword = 0;
     
-    public void calcWordCount() throws FileNotFoundException{
-        // TODO code application logic here
+    //method to get all the words in all documents.
+    public void getAllWord(String doc) throws FileNotFoundException{
         Scanner sc2 = null;
-        stopWords();
         Stemmer stem= new Stemmer();
-        for(int y = 1; y < 21; y++){
-            String b = "doc"+y;
-            try {                
-                sc2 = new Scanner(new File("src\\topic_modelling\\Document\\" + b + ".txt"));
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();  
-            }
-            while (sc2.hasNextLine()) {
-                    Scanner s2 = new Scanner(sc2.nextLine());
-                while (s2.hasNext()) {
-                    String s = s2.next();
-                    s = stem.stem(s);
-                    String[] words = s.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s");
-                    
-                    if(!stopwords.contains(words[0])){
-                        if(!map.containsKey(words[0])){
-                            map.put(words[0],0.0);
-                        }
-                    }
+   
+        try {                
+            sc2 = new Scanner(new File("src\\topic_modelling\\Document\\" + doc + ".txt"));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();  
+        }
+        while (sc2.hasNextLine()) {
+                Scanner s2 = new Scanner(sc2.nextLine());
+            while (s2.hasNext()) {
+                String s = s2.next();
+                StringTokenizer st = new StringTokenizer(s);  
+                synchronized(this){
+                    while (st.hasMoreTokens()) {  
+                        s = stem.stem(st.nextToken(","));                       
+                        String[] words = s.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s");    
+                        if(!stopwords.contains(words[0])){
 
-                    map.remove("");
-
+                                if(!map.containsKey(words[0])){
+                                    map.put(words[0],0.0);
+                                    wordcount++;
+                                }
+                        }                  
+                    }  
                 }
+                map.remove("");
+
             }
         }
+        System.out.println("The word count currently are: " + wordcount);
+    }
+    //method to get the word counts for each documents
+    public synchronized void getWordCount(String doc) throws FileNotFoundException{
+        Scanner sc2 = null;
+        Stemmer stem= new Stemmer();
 
-        for(int y = 1; y < 21; y++){     
-            
-            String b = "doc"+y;
-            try {                
-                sc2 = new Scanner(new File("src\\topic_modelling\\Document\\" + b + ".txt"));
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();  
-            }
-            while (sc2.hasNextLine()) {
-                    Scanner s2 = new Scanner(sc2.nextLine());
-                while (s2.hasNext()) {
-                    String s = s2.next();
-                    s = stem.stem(s);
+        try {                
+            sc2 = new Scanner(new File("src\\topic_modelling\\Document\\" + doc + ".txt"));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();  
+        }
+        while (sc2.hasNextLine()) {
+                Scanner s2 = new Scanner(sc2.nextLine());
+            while (s2.hasNext()) {
+                String s = s2.next();
+                StringTokenizer st = new StringTokenizer(s);                  
+                while (st.hasMoreTokens()) {  
+                    s = stem.stem(st.nextToken(","));  
                     String[] words = s.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s");
                    // words[0] = stem.stem(words[0]);
                     if(!stopwords.contains(words[0])){
                         if(map.containsKey(words[0])){
                             double i = map.get(words[0])+1;
                             map.put(words[0],i);
+                            totalword = totalword + 1;
                         }
                         else{
                             map.put(words[0],1.0);
+                            totalword = totalword + 1;
                         }      
                     }
                 }
-                map.remove("");
                 
             }
-            double first = 0;
-            for(Map.Entry m:map.entrySet()){  
-                if(first < (double)m.getValue()){
-                    first = (double) m.getValue();
-                }                            
-            }
-            
-            //normalizeMap(first);
-            System.out.println(map);
-            System.out.println("\n\n");
-            mapAll.put(b,map.clone());
-            map.replaceAll((k,v) -> 0.0);
+            map.remove("");
+
         }
-       
+        double first = 0;
+        for(Map.Entry m:map.entrySet()){  
+            if(first < (double)m.getValue()){
+                first = (double) m.getValue();
+            }                            
+        }
+
+        //normalizeMap(first);//normalization is replaced by TFIDF 
+        //System.out.println(map);
+        //System.out.println("\n\n");
+        mapAll.put(doc,map.clone());
+        map.replaceAll((k,v) -> 0.0);
+
+    }
+    //method to calculate and get all the TFIDF of all documents
+    public void calcAndGetTFIDF(String doc){
+        // TODO code application logic here              
+      /*
         for(Map.Entry m:mapAll.entrySet()){  
             map.putAll((HashMap)m.getValue());
             for(Map.Entry m2:map.entrySet()){  
@@ -111,54 +129,55 @@ public class CountWord {
             mapAllTFIDF.put(m.getKey().toString(),mapTFIDF.clone());
             mapTFIDF.replaceAll((k,v) -> 0.0);
            
-        }
-        for(int j = 1; j < 21; j++){
-            String doc1 = "doc" + j;
-            for(int i = 1; i < 21; i++){
-                
-                String doc2 = "doc" + i;
-                String compare = doc1 +" : " + doc2;
-                double result = EuclideanDistance((HashMap)mapAllTFIDF.get(doc1),(HashMap)mapAllTFIDF.get(doc2));
-                similarityMatrix.put(compare, result);
+        }    */  
+        HashMap<String, Double> hashmap = new HashMap<String, Double>();
+        HashMap<String, Double> hashmapTFIDF = new HashMap<String, Double>();
+        
+        hashmap.putAll((HashMap)mapAll.get(doc));
+        //System.out.println(hashmap);
+        for(Map.Entry m2:hashmap.entrySet()){
+            if((double)m2.getValue() == 0){               
+                hashmapTFIDF.put(m2.getKey().toString(), 0.0);
             }
+            else
+                hashmapTFIDF.put(m2.getKey().toString(), calcTFIDF(m2.getKey().toString(), hashmap));                
         }
-        writeCSVTFIDF();
-        writeCSVSimilarMatrix("Euclidean");
-        similarityMatrix.clear();
-        for(int j = 1; j < 21; j++){
-            String doc1 = "doc" + j;
-            for(int i = 1; i < 21; i++){
-                
-                String doc2 = "doc" + i;
-                String compare = doc1 +" : " + doc2;
-                //if(!doc1.equals(doc2)){
-                    double result = cosineSimilarity((HashMap)mapAllTFIDF.get(doc1),(HashMap)mapAllTFIDF.get(doc2));
-                    similarityMatrix.put(compare, result);
-                //}
-               //// else
-               //     similarityMatrix.put(compare, 0.0);                    
-            }
-        }        
-        writeCSVSimilarMatrix("Cosine");
-        similarityMatrix.clear();
-        for(int j = 1; j < 21; j++){
-            String doc1 = "doc" + j;
-            for(int i = 1; i < 21; i++){
-                
-                String doc2 = "doc" + i;
-                String compare = doc1 +" : " + doc2;
-              //  if(!doc1.equals(doc2)){
-                    double result = manhanttanDistance((HashMap)mapAllTFIDF.get(doc1),(HashMap)mapAllTFIDF.get(doc2));
-                    similarityMatrix.put(compare, result);
-              //  }
-            //    else
-             //       similarityMatrix.put(compare, 0.0);
-                
-            }
-        }
-        writeCSVSimilarMatrix("Manhanttan");
+        System.out.println(hashmapTFIDF);
+        mapAllTFIDF.put(doc,hashmapTFIDF.clone());
+;
+        
     }
     
+    
+    
+    //method to get the euclidean distance between two document and put the value into matrix
+    public void calcEuclidean(String doc1, String doc2, HashMap<String, Double> similarityMatrix) throws FileNotFoundException{
+        String compare = doc1 +" : " + doc2;
+        double result = EuclideanDistance((HashMap)mapAllTFIDF.get(doc1),(HashMap)mapAllTFIDF.get(doc2));
+        similarityMatrix.put(compare, result);     
+       // System.out.println(similarityMatrix);
+        //writeCSVTFIDF();
+        //writeCSVSimilarMatrix("Euclidean");
+        //similarityMatrix.clear();
+    }
+    //method to get the cosine similarity between two document and put the value into matrix
+    public void calcCosine(String doc1, String doc2, HashMap<String, Double> similarityMatrix) throws FileNotFoundException{
+        String compare = doc1 +" : " + doc2;           
+        double result = cosineSimilarity((HashMap)mapAllTFIDF.get(doc1),(HashMap)mapAllTFIDF.get(doc2));
+        similarityMatrix.put(compare, result);               
+       // writeCSVSimilarMatrix("Cosine");
+       // similarityMatrix.clear();
+    }
+    //method to get the manhanttan distance between two document and put the value into matrix
+    public void calcManhanttan(String doc1, String doc2, HashMap<String, Double> similarityMatrix) throws FileNotFoundException{
+        String compare = doc1 +" : " + doc2;
+        double result = manhanttanDistance((HashMap)mapAllTFIDF.get(doc1),(HashMap)mapAllTFIDF.get(doc2));
+        similarityMatrix.put(compare, result);  
+        //writeCSVSimilarMatrix("Manhanttan");
+        //similarityMatrix.clear();
+    }
+    
+    //method to write TFIDF of each documents into matrix
     public void writeCSVTFIDF() throws FileNotFoundException{
         PrintWriter pw = new PrintWriter(new File("matrix.csv"));
         StringBuilder sb = new StringBuilder();
@@ -191,7 +210,8 @@ public class CountWord {
         
     }
             
-    public void writeCSVSimilarMatrix(String matrix) throws FileNotFoundException{
+    //method to write the computed similarity matrix into CSV file
+    public void writeCSVSimilarMatrix(String matrix, HashMap similarityMatrix) throws FileNotFoundException{
         PrintWriter pw = new PrintWriter(new File("matrix" + matrix + ".csv"));
         StringBuilder sb = new StringBuilder();
         sb.append(" "+DEFAULT_SEPARATOR);
@@ -203,7 +223,7 @@ public class CountWord {
         for(int i = 1; i <= 20 ; i++){
             writeLine(sb,"doc"+i);
             for(int j = 1; j <= 20; j++){
-                String b = "doc" + i + " : " + "doc" +j;
+                String b = "doc" + i + " : " + "doc" +j;               
                 writeLine(sb,similarityMatrix.get(b).toString());                
             }
             sb.append("\n");
@@ -216,7 +236,7 @@ public class CountWord {
     public void writeLine(StringBuilder sb, String word) throws FileNotFoundException{
         sb.append(word + DEFAULT_SEPARATOR);
     }
-    
+    //method for normalization
     public void normalizeMap(double largest){
          for(Map.Entry m:map.entrySet()){               
              double calculation = (double)m.getValue()/largest;
@@ -226,6 +246,7 @@ public class CountWord {
          }
     }
     
+    //method to calculate IDF
     public double calcIDF(String term){
         double n =0;
         HashMap<String, Double> hash = new HashMap<String, Double>();
@@ -242,8 +263,8 @@ public class CountWord {
         double result = numDocs/n;
         return Math.log(result);
     }
-    
-    public double calcTF(String term){
+    //method to calculate TF
+    public double calcTF(String term, HashMap<String, Double> map){
         double termFreq = map.get(term);
         double totalTerm = 0;
 
@@ -253,13 +274,14 @@ public class CountWord {
         }
         return termFreq/totalTerm;
     }
-    
-    public double calcTFIDF(String term){
+    //method to calculate TFIDF
+    public double calcTFIDF(String term, HashMap<String, Double> map){
         
-        return calcTF(term)*calcIDF(term);
+        return calcTF(term, map)*calcIDF(term);
         
     }
     
+    //method to get all the stopwords into list
     public void stopWords(){
         Scanner sc2 = null;
         try {                
@@ -270,7 +292,7 @@ public class CountWord {
         while (sc2.hasNextLine()) {
                 Scanner s2 = new Scanner(sc2.nextLine());
             while (s2.hasNext()) {
-                String s = s2.next();
+                String s = s2.next();             
                 String[] words = s.replaceAll("[^a-zA-Z ]", "").toLowerCase().split("\\s");
                 stopwords.add(words[0]);   
                 
@@ -278,6 +300,7 @@ public class CountWord {
         }
     }
     
+    //method to calculate euclidean distance between two document
     public double EuclideanDistance(HashMap doc1, HashMap doc2){
         HashMap<String, Double> hash1 = new HashMap<String,Double>();
         HashMap<String, Double> hash2 = new HashMap<String,Double>();
@@ -292,9 +315,9 @@ public class CountWord {
             Double result = Math.pow(diff, 2);  
             finalResult = finalResult + result;
         }
-        return finalResult;
+        return Math.sqrt(finalResult);
     }     
-    
+    //method to calculate cosine similarity between two document
     public double cosineSimilarity(HashMap doc1, HashMap doc2){
         HashMap<String, Double> hash1 = new HashMap<String,Double>();
         HashMap<String, Double> hash2 = new HashMap<String,Double>();
@@ -313,7 +336,7 @@ public class CountWord {
         //return 1 - finalResult;
         return finalResult;
     }
-    
+    //method to calculate manhanttan distance between two document
     public double manhanttanDistance(HashMap doc1, HashMap doc2){
         HashMap<String, Double> hash1 = new HashMap<String,Double>();
         HashMap<String, Double> hash2 = new HashMap<String,Double>();

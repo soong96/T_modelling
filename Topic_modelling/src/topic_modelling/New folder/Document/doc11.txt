@@ -1,0 +1,192 @@
+﻿Description
+translated from Chinese
+[0090] ??????????????????????????,??????????????,????????????????????????????,???????????????????
+Double gate thin film transistor and dual-gate thin film transistor including an OLED display device
+
+Cross [0001] REFERENCE TO RELATED PATENT APPLICATION
+
+[0002] This application claims July 7, 2010 in the Korean Patent Office filed No. 10-2010-0065461 interests, the disclosure of which is hereby incorporated herein by reference in its entirety.
+
+TECHNICAL FIELD
+
+[0003] The following description relates to a dual-gate thin film transistor (TFT) and a double gate TFT includes an organic light emitting diode (OLED)
+
+Display means.
+
+Background technique
+
+[0004] In such a liquid crystal display, flat-panel displays and organic electroluminescent inorganic electroluminescent displays like the display thin film transistor (TFT) used in the device, is used to control the operation of each pixel switching device and used for driving the pixel the drive device.
+
+[0005] In general, each TFT has: a heavily doped source / drain region and the active layer is formed between the source / drain regions of the channel region and insulated from the active layer is formed in the channel the gate electrode region corresponding to the position and were exposed to the source / drain region of the source / drain electrodes.
+
+[0006] The active layer is formed of amorphous silicon or polycrystalline silicon comprises a semiconductor material. When the active layer is formed of amorphous silicon, the carrier mobility is decreased, making it difficult to achieve high-speed operation of the specific driving circuit. When the active layer is formed of polysilicon, the carrier mobility increases, but the threshold voltage is uneven, so that needs to be laid separate compensation circuit.
+
+SUMMARY
+
+Exemplary embodiments [0007] The present invention provides a threshold voltage for controlling the thin film transistor (TFT) explicit
+
+A display device.
+
+[0008] According to aspects of an embodiment of the present invention, there is provided a dual-gate thin film transistor (the TFT), comprising: a first gate electrode on a substrate; a first active layer on the gate electrode; the a source electrode and a drain electrode on the active layer; a planarization layer on the substrate and the source and drain electrodes of the planarization layer and the active layer having an opening corresponding to; and in the opening a second gate electrode.
+
+[0009] The active layer may include an oxide semiconductor.
+
+[0010] The second gate electrode may be a cathode display device is an organic light emitting diode (OLED).
+
+[0011] may be configured with a positive voltage is applied to the gate electrode of the first, and can be configured for applying a second gate electrode to the negative voltage.
+
+[0012] According to another aspect of the embodiment of the present invention, there is provided an organic light emitting diode (OLED) display device, comprising: a pixel electrode electrically connected to the thin film transistor (TFT) and is located on the planarization layer; said pixel electrodes a pixel defining layer (PDL) on the pixel defining layer: the PDL and by etching the planarization layer is formed exposing the planarizing layer and the active layer of the TFT corresponding to a portion of the a first opening exposing the pixel electrode, and a second portion of the opening is formed by etching the PDL; and said first opening and said second opening of the pair of electrodes. [0013] The TFT may include: in a first gate electrode on a substrate; an active layer on the first gate electrode; and a source electrode and a drain electrode on the active layer.
+
+[0014] The counter electrode may be a second gate electrode of the TFT.
+
+[0015] According to another aspect of the embodiment of the present invention, there is provided a method of manufacturing an organic light emitting diode (OLED) display device, said method comprising: a pixel electrode electrically connected to the thin film transistor (TFT) is formed on the planarization layer, ; pixel defining layer (PDL) is formed on the pixel electrode; PDL by etching the planarization layer and the planarizing layer is formed in the exposed and the TFT active layer corresponding to the first part of opening and forming a second opening exposing the pixel electrode by etching the portion of the PDL; and forming a pair of electrodes of said first opening and said second opening.
+
+[0016] Prior to operation of the pixel electrode is formed, the method may further comprise the following operations: a first gate electrode formed on the substrate; the active layer formed on said first gate electrode; said active layer the formation of the source and drain electrodes; and the planarization layer is formed on the source and drain electrodes and the substrate.
+
+[0017] Before forming the electrodes, the method may further comprise the operation of the light-emitting layer is formed in the second opening.
+
+[0018] The counter electrode may be a first gate electrode and the corresponding second gate electrode.
+
+[0019] According to another aspect of the present invention is an embodiment, there is provided a method of manufacturing a double gate thin film transistor (TFT), the method comprising: a first gate electrode formed on the substrate; a gate electrode on the first forming an active layer; forming a source electrode and a drain electrode on the active layer; planarizing layer is formed on the source electrode and the drain electrode and the substrate; etching through the planarization layer is formed and have the an opening corresponding to the active layer; and a second gate electrode is formed in the opening.
+
+[0020] The second gate electrode may be a cathode OLED display device.
+
+BRIEF DESCRIPTION
+
+[0021] Exemplary embodiments of the present invention will be described in detail with reference to the accompanying drawings, the above and other features and advantages of the invention will become apparent from the drawings, in which:
+
+[0022] FIG. 1 is a sectional view of a double gate comprising an oxide semiconductor thin film transistor (TFT) according to an embodiment of the present invention;
+
+[0023] FIG. 2 is a dual-gate TFT including an organic light emitting diode (OLED) display embodiment of the present invention is a cross-sectional view of the apparatus;
+
+[0024] FIGS. 3 to 7 is a sectional view of the manufacturing process of the apparatus includes a dual-gate TFT according to an embodiment of the OLED display of the present invention;
+
+[0025] FIG. 8 and FIG. 9 is a diagram showing the electrical characteristics of an embodiment of the present invention is a double gate TFT of FIG;
+
+[0026] FIG. 10 is a circuit diagram of a portion of the apparatus in accordance with an embodiment of the OLED display of the present invention; and
+
+[0027] Figure 11 includes a pixel in an OLED display apparatus of FIG. 10 in a plan view of a TFT.
+
+detailed description
+
+In [0028] Hereinafter, the exemplary embodiments of the present invention by referring to the figures of the present invention will be described in detail. The same reference numerals in the drawings refer to like elements throughout. In the following description, it is not described well-known functions or constructions in detail, in order to avoid unnecessary detail and makes the aspect of the invention become blurred.
+
+[0029] As used herein, the term "and / or" includes one or more listed items associated with any and all combinations. [0030] In the drawings, for clarity, and the thickness of layers and regions are enlarged. Throughout the specification, it should be understood that when a layer, film, region, or substrate is referred to as an element another element "on", the element can be directly on the other element, or it may be one or more intervening elements.
+
+[0031] More recently, studies have been carried out using an oxide semiconductor as an active layer. TFT using an oxide semiconductor as an active layer of an oxide may be a low temperature manufacturing process, because of its amorphous phase which can have a large area, and as having good electrical characteristics with polysilicon.
+
+[0032] Figure 1 is a sectional view of a thin film transistor including an oxide semiconductor (TFT) according to an embodiment of the present invention.
+
+[0033] Referring to Figure 1, the double gate TFT is an NMOS transistor, a gate electrode 21 includes a bottom, an active layer 22, 22 formed in the side surface of the active layer source / drain electrode 23/24, and the top gate electrode 25.
+
+[0034] In more detail, a bottom gate electrode 21 is formed on the substrate 11, and the gate insulating layer 11 and the substrate 13 to cover the bottom gate electrode 21 is formed. The active layer 22 is formed of an oxide semiconductor is formed on the gate insulating layer 13. Forming an interlayer insulating layer 15 to cover the active layer 22. Source / drain electrodes 23 / M is connected via the contact holes to the active layer 22, and a planarization layer 17 is formed to cover the source / drain electrodes 23/24 15 on the interlayer insulating layer. Pixel defining layer (PDL) 19 is formed on the planarizing layer 17, in order to prevent or reduce color mixture between pixels. PDL 19 and by patterning the planarization layer 17, a hole is formed corresponding to the active layer 2227, and a top gate electrode 25 is formed in the hole 27.
+
+[0035] The active layer 22 may be formed of a transparent oxide semiconductor, and between the source / drain electrodes 23 / M channel is formed.
+
+[0036] In an oxide semiconductor is used as the active layer of the oxide TFT, when the NMOS having stable characteristics, the threshold voltage (hereinafter, referred to as Vth) having a negative or near negative value, so that fault circuit operation may occur. Moreover, when the compensation circuit, if Vth has a negative value, the compensation may not be performed correctly.
+
+[0037] Thus, it should be adjusted or offset from a negative Vth is positive, and for this shift, or the process may be changed, or may adjust the channel width and / or length (W / L). However, these methods can not guarantee reliability.
+
+[0038] In an embodiment of the present invention, the bias voltage is applied to the top gate electrode 25, so that the Vth shift is positive. A top gate electrode is a fixed voltage applied to the electrode layer may be used as the TFT 25, wherein the electrode layer may be an existing electrode layer from the display device. Therefore, no separate top gate electrode 25 is formed, it does not require an external power source biasing arrangement to the top gate electrode 25 or additional wiring. In this way, increasing the aperture ratio of the display device, and reduce the factors that lead to process errors.
+
+In [0039] Hereinafter, the next reference to the organic light emitting diode (OLED) display device is used as an example of the cathode top gate electrode 25 will be described.
+
+[0040] Figure 2 is a cross-sectional view of a device according to the double gate TFT comprises an OLED display embodiment of the present invention.
+
+[0041] Referring to Figure 2, OLED display means is formed by an oxide semiconductor having a double gate TFT driving unit, comprising an organic electroluminescent (organic EL) light emitting unit and the storage unit includes a capacitor Cst is formed.
+
+[0042] The double gate TFT is a double gate NMOS transistor comprising a bottom gate electrode 21, an active layer 22, 22 formed on the active layer side surface of the source / drain electrode 23/24. Moreover, in the dual-gate TFT, the organic EL counter electrode 35 is used as a top gate electrode.
+
+[0043] In more detail, a bottom gate electrode 21 is formed above the substrate 11, and the gate insulating layer 11 and the substrate 13 to cover the bottom gate electrode 21 is formed. The active layer 22 is formed of an oxide semiconductor is formed on the gate insulating layer 13. Forming an interlayer insulating layer 15 to cover the active layer 22. Source / drain electrodes 23 / M is connected via the contact holes to the active layer 22, and a planarization layer 17 is formed to cover the source / drain electrodes 23/24 15 on the interlayer insulating layer. The active layer 22 may be formed of a transparent oxide semiconductor, and between the source / drain electrodes 23 / M channel is formed. The active layer is formed in an area corresponding to the planarization layer 17 in the opening, and the light emitting element electrode 35 is formed in the opening. [0044] The organic EL from the source connected to a dual-gate TFT / drain electrode 23 / M of the pixel electrode 31, and includes an insertion of a pixel electrode 31 and the electrode 35 of the intermediate layer 33 between the light emitting layer electrode 35 is formed. The pixel electrode 31 serves as an anode, and the counter electrode 35 as a cathode, both as a top gate electrode TG double gate TFT.
+
+[0045] capacitor Cst is formed by the first electrode 41 and second electrode 43, the gate insulating layer, an intermediate layer 13 and the insulating layer 15 interposed between the first electrode 41 and second electrode 43.
+
+[0046] In the present embodiment, the light-emitting element electrode 35 (which is a double gate TFT top gate electrode TG) is applied to the cathode voltage (i.e., a negative voltage), and the bottom gate electrode 21 is applied to a positive voltage, and thus is supported ? channel source layer 22 is formed, the Vth shift is positive.
+
+[0047] Figure 3 to 7 are cross-sectional manufacturing double gate TFT process OLED display apparatus according to the embodiment of FIG embodiment of the invention comprises.
+
+[0048] Referring to Figure 3, the substrate 11 on the bottom gate electrode 21 is formed of a double gate TFT. Before the end of the gate electrode 21 is formed of a double gate TFT, a buffer layer (not shown) may be formed on the substrate 11. The buffer layer may be used to prevent or reduce the penetration of impurities of the substrate 11 is disposed above the substrate layer 11. The buffer layer may include silicon oxide (SiO2) and / or silicon nitride (SiNx).
+
+[0049] a transparent glass substrate 11 can be formed of materials including SW2. Also, the substrate 11 may comprise a plastic material. The substrate 11 may comprise a metal foil and / or a flexible substrate.
+
+[0050] The composition can be used from Au, Ag, Cu, Ni, Pt, Pd, A1, Mo, W, and Ti group, select the bottom gate electrode 21
+
+Formed of a metal or metal alloy can be used, such as Al-Nd alloy and a Mo-W alloy or the like is formed, but is not limited thereto. In fact, the bottom gate electrode 21 may be considered in the case of adjacent layers such as adhesion, flattening resistance or formability and other properties or characteristics, using a variety of materials.
+
+[0051] Referring to Figure 4, the bottom gate electrode 21 a gate insulating layer 13 and the active layer 22 are sequentially formed.
+
+[0052] The gate insulating layer 13 is formed on the substrate 11 and the bottom gate electrode 21. A gate insulating layer 13 may be an insulating material comprises silicon oxide or silicon nitride is formed, or may be an insulating organic material.
+
+[0053] Next, an active layer 22 on the gate insulating layer 13 is formed. The active layer 22 may include a bottom gate electrode 21 overlaps with the channel region, and may include an oxide semiconductor. The active layer 22 may comprise an oxide semiconductor including at least one element selected from the group ^ uGaJru Sn, Sb, Ge, Hf consisting of As and selected. For example, the oxide semiconductor may include at least one of ZnO, SnO2, In2O3> Zn2SnO4, Ga2O3 and / or HfO2 in. Further, the active layer 22 may be formed using a transparent oxide semiconductor. For example, the transparent oxide semiconductor may include zinc oxide, tin oxide, indium gallium zinc oxide, indium zinc oxide and / or indium tin oxide, but is not limited thereto. The active layer 22 may be formed as a sputtering method by using a physical deposition. The active layer 22 by an amount corresponding to the TFT according to the resistance value to control the oxygen formed.
+
+[0054] Referring to Figure 5, the active layer 22 are sequentially formed on the interlayer insulating layer 15 and the source / drain electrodes 23/24.
+
+[0055] First, on the substrate 11 and the active layer 22 insulating layer 15 is formed. The interlayer insulating layer 15 may include an insulating material is formed of silicon oxide or silicon nitride, or may be an insulating organic material.
+
+[0056] The interlayer insulating layer 15 is formed by selectively removing the contact hole, and having a single or multi source / drain electrode 23/24 is formed on the interlayer insulating layer 15 so as to cover the contact hole. Source / drain electrodes 23 / M respectively contact the sides of the active layer 22 via the contact hole. Source / drain electrodes 23 / M may be a conductive material (e.g., including Cr, Pt, Ru, Au, Ag, Mo, Al, W, Cu, and / or AlNd metal, or comprise ITO, GIZO, GZO, IZO (InZnO ) or AZO (AlZnO) metal or conductive oxide) is formed.
+
+[0057] Referring to Figure 6, the substrate 11 and the source / drain electrodes 23 / M planarization layer 17 is formed on the planarization layer 17 and therefore for protecting and planarizing the bottom or at its lower double gate TFT. The planarization layer 17 may be formed by using one of a variety of methods, and may include the use of benzocyclobutene (the BCB) acrylic acid or an organic material or an inorganic material comprising SiNx. Furthermore, the planarization layer 17 may be formed as a single, two or more layers.
+
+The pixel electrode 31 [0058] is formed on the planarization layer 17, and the pixel electrode 31 electrically connected via four contact holes to the source / drain electrodes 23 / M one.
+
+[0059] the pixel electrode 31 can be used in a variety of electrically conductive material is formed. Achieve image toward the substrate 11 in a bottom emission type OLED display apparatus, the pixel electrode 31 may be a transparent electrode, and may use a material having a high work function include ITO, IZO, ZnO, and / or In2O3 formed. Current image away from the substrate 11 emission type OLED display apparatus, the pixel electrode 31 may be a reflective electrode, and may comprise from Ag, Mg, Al, Pt, Pd, Au, Ni, Nd, Ir, Cr, Li, Ca and material combinations thereof in the choice. May further be formed of a material having a high work function include ITO, IZO, ZnO or In2O3 on the reflective electrode.
+
+[0060] deposition of the pixel defining layer (PDL) 19 on the substrate 31 including the pixel electrode 11. PDL 19 defining a unit pixel section. PDL 19 may be formed by at least one material selected from the group comprising polyimide, polyamide, acrylic resin, BCB, and a phenolic resin selected from an organic insulating material according to the spin coating method. PDL 19 can also take advantage from Si02, SiNx, Al203, Cu0x, Tb407, Y203, an inorganic insulating material and Pr2O3 Nb205 group consisting of selected formation. Furthermore, PDL 19 may have a multilayer structure organic insulating material and an inorganic insulating material formed alternately.
+
+[0061] PDL 19 is formed by etching the flattening 17 and 22 and the portion of the active layer corresponding to the first opening 27. And also forming a second opening 37 is etched to expose a portion of the pixel electrode 31.
+
+[0062] Referring to Figure 7, an intermediate layer including a light emitting layer 33 is formed in the second opening 37, and 35 are formed on the electrodes so as to cover at least the intermediate layer 33 on the substrate 11.
+
+[0063] the intermediate layer 33 may have a single layer or a multilayer structure, wherein the emitter layer is formed from (the EML), a hole transport layer (HTL), a hole injection layer (the HIL), an electron transport layer (ETL), and / or electronic injection layer (EIL) in one or more layers.
+
+[0064] the intermediate layer 33 can be formed monomeric or polymeric organic material.
+
+The case of [0065] the use of low-molecular organic material in the intermediate layer 33 is formed, the intermediate layer 33 having a HTL and HIL are stacked toward the pixel electrode 31, and the ETL and EIL with respect to the counter electrode 35 closer to the EML are stacked. In addition to these layers, it may also be correspondingly more stacked layers. Here, the organic material can be used include copper phthalocyanine (CuPc), N, N '- two naphthalene-1-yl -N, N, - biphenyl - benzidine (NPB), or tris-8-hydroxyquinoline aluminum (Alq3) and the like.
+
+The case of [0066] the use of a high molecular organic material in the intermediate layer 33 is formed, the intermediate layer 33 may be stacked structure having a HTL with respect to only a pixel electrode 31 closer to the EML. HTL by utilizing an ink jet printing method according polyethylene or spin coating method - (2,4) - ethylene - dioxythiophene (of PEDOT) or polyaniline (PANI) is formed on the pixel electrode 31. Here, use may include polyphenylenevinylene (PPV) or polyfluorene based material based material like a polymer organic material, and may include a general method by using inkjet printing method, a spin coating method or a thermal transfer method using a laser of to form a color pattern.
+
+[0067] The electrode 35 may be deposited on the entire surface of the substrate 11, and may cover the first opening 27 and second opening 37. In the apparatus according to the embodiment of the present invention, OLED display, the pixel electrode 31 serves as an anode, and the counter electrode 35 as a cathode. Covering the first electrode 35 and the opening 27 is used as a top face of the bottom gate electrode 21 of the gate electrode TG, and covers the second opening 37 and facing the pixel electrode as a cathode (31).
+
+[0068] is displayed in the image toward the substrate 11 to achieve a bottom emission type OLED device, the electrode 35 is a reflective electrode. This reflective electrode can be used with a low work function, and from 48, 1% ^ 1 ,? Shu,? (1 ^ 11, comfort, and 11 ~ 0,1 ^ 01,1 ^ Jie / Ca, LiF / Al, and combinations consisting of a metal selected formed on the electrode 35 toward top of image emission type OLED display device, the electrode 35 may be a transparent electrode, which can be both deposited from a low work function and Ag, Mg, Al, Pt, Pd, Au, Ni, Nd, Ir, Cr, Li, Ca and combinations consisting of a metal selected to form, then include ???, ??0, ZnO and / or h203 transparent conductive material forming an auxiliary electrode layer or the common electrode line thereon by using.
+
+[0069] Although not shown in Figure 7, but you can on the counter electrode 35 is further arranged a sealing member (not shown) and a hygroscopic agent (not shown), in order to protect EML from external moisture or oxygen.
+
+[0070] FIG. 8 and FIG. 9 is a diagram showing the electrical characteristics of the dual-gate TFT according to an embodiment of the present invention.
+
+[0071] FIG. 8 shows for the case of applying a voltage to the dual-gate TFT is not top gate electrode (that is, when a double gate TFT with the conventional single-gate TFT substantially the same manner as operations) as well as for the embodiment according to the present invention, respectively, applying a voltage (gate voltage Vg) and the source and drain current characteristics between the (drain current Id) characteristics -3V and -6V, the bottom gate and top gate electrode between the source of an embodiment of a double gate TFT. In Figure 8, the horizontal axis represents the gate voltage, and the vertical axis represents the leakage current. Moreover, the voltage (drain voltage Vds) Figure 8 illustrates the drain and source between respectively 5. IV and 0. IV.
+
+[0072] Referring to FIG. 8, in the conventional single-gate TFT, Vth close to the negative voltage, but in the double-gate TFT according to the present invention embodiment, Vth shifts to the right, thereby shifted to more positive voltage.
+
+[0073] For example, when applying -3V or -6V to top gate electrode, Vg are about 6V and 12V.
+
+[0074] FIG. 9 shows Vth change for a bias voltage to the top gate electrode according to an embodiment of the present invention is applied to a double gate TFT's. Figure 9 corresponds to the left in the active layer has a length of 36 µ m in the case, and in FIG. 9 corresponds to the right length for the case of an active layer of 18 µ m.
+
+[0075] Referring to FIG. 9, when a bias voltage is applied respectively 0V, -3V and -6V to the top gate electrode, Vth is a positive offset voltage. Here, Vth is shorter as the length of the active layer is further increased.
+
+[0076] Further, when the change in distance D active layer and the top gate electrode, for example, when the distance D are set to 800A, 1600A and when 2000A, change the Vth decrease as the distance D increases. However, irrespective of the change in the distance D, as the reduced-Vth of the bias voltage is shifted to a more positive voltage.
+
+[0077] FIG. 10 is a circuit diagram of a portion of the OLED display apparatus according to an embodiment of the present invention. 11 is a plan view of a pixel in an OLED display apparatus of FIG. 10 in the TFT.
+
+[0078] Referring to Figure 10, OLED device comprises an organic light emitting display panel 100, a scan driver 200, data driver 300 and the timing controller 400.
+
+[0079] The organic light emitting panel 100 includes a plurality of scan lines Sl-Sn, a plurality of data lines Dl-Dm, and a plurality of pixels P. A plurality of scan lines Sl-Sn with a substantially uniform distance spaced apart from each other, arranged in rows (e.g., extending in the row direction), and provides the scan signals, respectively. A plurality of data lines Dl-Dm at a substantially uniform distance spaced apart from each other, are arranged in columns (e.g., extending in a column direction), and provides data signals, respectively. A plurality of scan lines Sl-Sn and a plurality of data lines Dl-Dm arranged in a matrix, and forming a pixel at each intersection region.
+
+[0080] The scan driver 200 is connected to a plurality of scan lines Sl-Sn, and the scanning signals are applied to the plurality of scan lines Sl-Sn in each scan line, wherein the signal has a scanning gate-on voltage and a gate-off voltage. The scan driver 200 may be a plurality of scan signals to the plurality of scan lines Sl-Sn may be sequentially applied to a gate-on voltage is applied to the plurality of scan signals manner. The scanning signal is a gate-on voltage, connected to the switching transistor is turned on the corresponding scan line.
+
+[0081] The data driver 300 is connected to the organic light emitting panel plurality of data lines Dl-Dm 100 and applied to the data indicating the gray level signal to a plurality of data lines Dl-Dm of each data line. The data driver 300 from the timing controller 400 inputs a different gray level of the input image data Data is converted into the form of current or voltage corresponding to the data signal. [0082] The timing controller 400 may receive input image data Data input control signal and image data Data input from an external display graphics controller (not shown). The input control signal may include a horizontal synchronization signal Hsync, a vertical synchronization signal Vsync and the master clock MCLK. The timing controller 400 provides the input image data Data to the data driver 300, and generates and provides a scan control signal and a data control signal C0NT2 CONTl respectively to the scan driver 200 and the data driver 300. CONTl scan control signal may include a scanning start signal SSP indicating the start of scanning and a plurality of clock signals SCLK, data and control signals C0NT2 may include a clock signal and for indicating the input image data Data provided to the pixels on the horizontal sync a particular row start signal STH.
+
+[0083] each pixel P includes a switching device for controlling the operation of each pixel and a driving device for driving each pixel TFT and the light emitting unit.
+
+[0084] TFT including an oxide semiconductor as a double gate TFT, may be formed as a cathode and the light emitting element is used as a top gate electrode of an NMOS transistor. TFT may, for example, as described above, the embodiment of the present invention.
+
+[0085] Referring to Figure 11, TFT comprises a gate electrode 21 is located above the bottom of the active layer 22, and the side surface of the central portion of the active layer 22 overlaps the source / drain electrode 23/24 and the active layer 22 is formed corresponding to the first opening of the top gate electrode 27.
+
+[0086] 21 and 22 is inserted between the gate insulating layer, source / drain electrodes 23 / M 22 contact the active layer, wherein between the source / drain electrodes 23 / M and the active layer 22 into the active layer in a bottom gate electrode an interlayer insulating layer, and further forming a planarization layer and the PDL source / drain electrode 23 / M above. By etching the planarization layer and the PDL, and the position at the central portion of the active layer 22 corresponding to the first opening 27 is formed.
+
+[0087] In the case where the TFT for OLED display device may be used as a cathode electrode layer formed on the first opening 27, and the top electrode layer can serve as a gate electrode. FIG TFT region 6 shown in FIG. 11 along the line A-A 'sectional view taken.
+
+[0088] In the above-described embodiment, the double gate TFT used in the OLED display device. However, according to other embodiments of the present invention, a double gate TFT may be used in various other types of display devices, for example, include an electrode layer may be used in a fixed voltage is applied to the display device.
+
+[0089] According to an embodiment of the present invention, the conventional constant voltage is applied to the electrode layers may serve as the top of the gate electrode of the double gate TFT, the manufacturing process can be simplified and the assembly structure, and can increase the aperture ratio.
+
+[0090] Although reference to an example of the embodiment of the present invention has been particularly shown and described the present invention, those of ordinary skill will appreciate that the spirit and scope of the appended claims without departing from the invention as defined in the case of under various changes can be made in the form and details here.
