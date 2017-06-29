@@ -1,7 +1,4 @@
 # T_modelling
-TFIDF done
-Manhanttan distance done
-Cosine distance done
-Euclidean distance done
-CSV done
+To do our 2d representation of the documents, we first iterate through all the documents and store all the words in a hashmap. Then, we only start to count the words and TFIDF for each documents.
 
+We refer to another library called exude uttesh to do stemming filtering in the documents.
