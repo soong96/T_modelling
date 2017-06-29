@@ -5,6 +5,14 @@
  */
 package topic_modelling;
 
+import com.apporiented.algorithm.clustering.Cluster;
+import com.apporiented.algorithm.clustering.visualization.DendrogramPanel;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.WindowConstants;
+
 import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.concurrent.CountDownLatch;
@@ -113,7 +121,28 @@ public class Topic_modelling {
 
         System.out.println(cw.wordcount);
         System.out.println(cw.totalword);
+        CSVReader csv = new CSVReader("matrixManhanttan.csv");
+        JFrame frame = new JFrame();
+        frame.setSize(400, 300);
+        frame.setLocation(400, 300);
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
+        JPanel content = new JPanel();
+        DendrogramPanel dp = new DendrogramPanel();
+
+        frame.setContentPane(content);
+        content.setBackground(Color.red);
+        content.setLayout(new BorderLayout());
+        content.add(dp, BorderLayout.CENTER);
+        dp.setBackground(Color.WHITE);
+        dp.setLineColor(Color.BLACK);
+        dp.setScaleValueDecimals(0);
+        dp.setScaleValueInterval(1);
+        dp.setShowDistances(false);
+
+        Cluster cluster = csv.createCluster();
+        dp.setModel(cluster);
+        frame.setVisible(true);
     }
     
 }

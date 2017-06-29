@@ -142,7 +142,7 @@ public class CountWord {
             else
                 hashmapTFIDF.put(m2.getKey().toString(), calcTFIDF(m2.getKey().toString(), hashmap));                
         }
-        System.out.println(hashmapTFIDF);
+        //System.out.println(hashmapTFIDF);
         mapAllTFIDF.put(doc,hashmapTFIDF.clone());
 ;
         
