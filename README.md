@@ -5,12 +5,12 @@ Then, we take TFIDF to calculate the Euclidean distance, Cosine similarity and M
 
 Similarity matrixes is then took to do Hierarchical  Clustering.
 
-#Library Used
+# Library Used
 We refer to another library called exude uttesh to do stemming filtering in the documents.
 
 We used the library found on github created by lbehnke to do Hierarchical Clustering. Link at: https://github.com/lbehnke/hierarchical-clustering-java
 
-#Explanation
+# Explanation
 Topic_modelling.java is the where the main class at.
 java file start with Task (e.g. TaskGetCosine) is the tasks created and to be given to thread pool for process.
 CountWord.java is the class that store all the method for topic_modelling.
