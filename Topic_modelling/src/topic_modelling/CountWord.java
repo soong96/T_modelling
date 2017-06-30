@@ -182,6 +182,7 @@ public class CountWord {
         PrintWriter pw = new PrintWriter(new File("matrix.csv"));
         StringBuilder sb = new StringBuilder();
         sb.append(" "+DEFAULT_SEPARATOR);
+        mapTFIDF.putAll((HashMap)mapAllTFIDF.get("doc1"));
         for(Map.Entry m:mapTFIDF.entrySet()){          
             writeLine(sb,m.getKey().toString());           
         }
